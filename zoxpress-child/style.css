@@ -1,0 +1,703 @@
+/*
+Theme Name:   ZoxPress Child
+Theme URI:    https://themeforest.net/user/mvpthemes/
+Description:  ZoxPress Child Theme
+Author:       MVP Themes
+Author URI:   https://themeforest.net/user/mvpthemes/portfolio
+Template:     zoxpress
+Version:      1.0.0
+License:      GNU General Public License v3 or later
+License URI:  http://www.gnu.org/licenses/gpl-3.0.html
+Tags:         two-columns, custom-background, custom-colors, custom-menu, featured-images, theme-options, threaded-comments, translation-ready
+Text Domain:  ZoxPress-child
+*/
+
+/*
+ *  General
+ */
+
+
+.single .wp-block-embed__wrapper{
+	position: initial;
+}
+.editor-post-title__block .editor-post-title__input, .editor-styles-wrapper p.has-large-font-size, .wp-block-pullquote blockquote>.block-editor-rich-text p {
+text-transform: none !important;
+}
+
+.zox-bot-head-logo-main img {
+    width: 140px;
+		object-fit: contain;
+}
+
+.zox-foot-logo.left img {
+    width: 190px;
+    margin: 10px;
+		object-fit: contain;
+}
+
+body {
+	background: #fff;
+}
+
+
+#zox-home-widget-wrap .lazy-load {
+	opacity: 1 !important;
+}
+
+
+span.zox-widget-main-title {
+	color: #000 !important;
+}
+
+
+.zox-post-tags {
+	display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+ .zox-post-tags.left.zoxrel.zox100 span a{
+                text-transform: uppercase;
+                font: bold 11px "Overpass",sans-serif;
+                color: #fff;
+                background: #ba1d20;
+                border-radius: 3px 0 0 3px;
+                display: inline-block;
+                height: 20px;
+                line-height: 20px;
+                padding: 0 5px 0 23px;
+                position: relative;
+                margin-right: 15px;
+                margin-left: 0px;
+                -webkit-transition: color .2s;
+            }
+
+            .zox-post-tags.left.zoxrel.zox100 span a:before{
+                background: #fff;
+                border-radius: 10px;
+                box-shadow: inset 0 1px rgba(0,0,0,.25);
+                content: "";
+                height: 6px;
+                left: 10px;
+                position: absolute;
+                width: 6px;
+                top: 7px;
+
+            }
+
+            .zox-post-tags.left.zoxrel.zox100 span a:after{
+                border-bottom: 10px solid transparent;
+                border-left: 10px solid #ba1d20;
+                border-top: 10px solid transparent;
+                content: "";
+                position: absolute;
+                right: -10px;
+                top: 0;
+            }
+
+
+span.zox-post-cat {
+    color: #e21c20 !important;
+}
+
+.zox-author-thumb img {
+    width: 100%;
+    object-fit: contain;
+    height: 100%;
+}
+
+
+
+#zox-bot-head-wrap {
+    background: #ba1d20;
+}
+
+.zox-post-body p a {
+	color: #ba1d20;
+}
+
+div#zox-fly-wrap {
+    background: #ba1d20;
+}
+
+
+@media screen and (max-width: 768px) {
+	.zox-post-tags.left.zoxrel.zox100 {
+    flex-direction: column;
+		        align-items: baseline;
+}
+}
+
+
+/*
+* Styles Personajes
+*/
+
+.modulo-decile {
+    background-color: #c42037;
+    border-radius: 4px;
+    margin: 15px;
+    color: #ffffff;
+}
+.modulo-decile .modulo-decile-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+}
+.modulo-decile .modulo-decile-header .modulo-decile-header-title {
+    color: #ffffff;
+    margin: 0;
+}
+.modulo-decile .modulo-decile-header .modulo-decile-header-link {
+    color: #ffffff;
+    font: 12px 'Open Sans', sans-serif;
+    text-decoration: none;
+    opacity: 0.8;
+}
+.modulo-decile .modulo-decile-body {
+    padding: 0 15px 15px 15px;
+}
+.modulo-decile .modulo-decile-body .modulo-decile-img {
+    position: relative;
+    overflow: hidden;
+    border-radius: 4px;
+    margin: 0 0 15px 0;
+}
+.modulo-decile .modulo-decile-body .modulo-decile-img img {
+    vertical-align: middle;
+    opacity: 0.8;
+}
+.modulo-decile .modulo-decile-body .modulo-decile-img .modulo-decile-persona {
+    position: absolute;
+    bottom: 10px;
+    color: #ffffff;
+    z-index: 5;
+    padding: 10px;
+    text-align: center;
+    text-shadow: 0 0 5px #c42037;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    font: 600 22px 'Open Sans', sans-serif;
+}
+.modulo-decile .modulo-decile-body .modulo-decile-description {
+    font: 12px 'Open Sans', sans-serif;
+    opacity: 0.8;
+}
+.decile-persona {
+    border: solid 1px rgba(44, 79, 186, 0.1);
+    display: flex;
+    border-radius: 4px;
+    overflow: hidden;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+.decile-persona .entry-thumbnail {
+    display: flex;
+    justify-content: center;
+}
+.decile-persona .entry-thumbnail img {
+    object-fit: cover;
+    width: 50%;
+    height: 100%;
+}
+.navigation-personage {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.navigation-personage .btn-pers a {
+    font-size: 18px;
+    background: #E05211;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 3px;
+}
+.navigation {
+    text-align: center;
+    font-size: 18px;
+}
+.container .decile-persona .image-person-single img{
+    width: 100%;
+    max-width: 640px;
+    object-fit: contain;
+}
+.list-header .container .decile-persona .image-person img {
+    width: 100%;
+    height: 200px;
+    object-position: top;
+	max-width: 220px;
+}
+.decile-persona .entry-data {
+    padding: 10px 10px;
+	flex: 3;
+}
+
+.decile-persona .parte1 {
+    margin-top: 15px;
+}
+.decile-persona .entry-data .entry-title {
+    position: relative;
+    padding: 0 15px;
+    color: #000000;
+    font: 600 18px / 24px 'Open Sans', sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.decile-persona .entry-data .entry-title a {
+    text-decoration: none;
+    color: #000000;
+}
+.decile-persona .entry-data .entry-title .entry-small {
+    color: #000000;
+    font: 100 14px 'Open Sans', sans-serif;
+    padding: 0 0 0 30px;
+    background: url('images/conversation.png') no-repeat 0px 3px;
+    background-size: 20px;
+    margin-left: 10px;
+}
+.entry-description {
+    padding: 5px 0 0 15px;
+    font: 400 16px / 20px 'Open Sans', sans-serif;
+    color: rgba(34, 34, 34, 0.7);
+}
+.entry-description p {
+    margin: 0 0 15px 0;
+}
+.single .entry-data .entry-description p {
+    text-align: center;
+}
+.titulo {
+    margin-bottom: 15px;
+    text-align: center;
+}
+.decile-persona .entry-data .entry-description .entry-icon-comment {
+    color: #1e3699;
+    font: 600 14px 'Open Sans', sans-serif;
+    padding: 0 0 0 30px;
+    background: url('images/conversation.svg') no-repeat 5px 5px;
+    background-size: 20px;
+    margin-left: 10px;
+    border: solid 1px #1e3699;
+    border-radius: 4px;
+    padding: 3px 5px 3px 30px;
+    text-decoration: none;
+}
+.decile-persona input.form-input {
+    background: white !important;
+}
+.btn {
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+}
+.btn.btn-primary {
+    background-color: #c42037;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font: 14px "Open Sans", sans-serif;
+}
+.decile-persona.single {
+    flex-direction: column;
+}
+.entry-new-comments {
+    border-bottom: solid 1px #e6ecf0;
+    padding: 30px 15px;
+}
+.entry-new-comments .entry-new-comments-tabs {
+    border-bottom: solid 1px #e6ecf0;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.entry-new-comments .entry-new-comments-tabs li {
+    font: 14px 'Open Sans', sans-serif;
+    padding: 10px;
+}
+.entry-new-comments .entry-new-comments-tabs li a {
+    text-decoration: none;
+    font: 14px 'Open Sans', sans-serif;
+    color: #000000;
+}
+.entry-new-comments .entry-new-comments-tabs li.active {
+    border-bottom: solid 5px #000000;
+}
+.entry-new-comments .entry-new-comments-tabs-cont {
+    padding: 10px 0 0 0;
+}
+.entry-comments .entry-comments-single {
+    margin-top: 12px;
+    padding: 20px;
+    background: white;
+    border-radius: 6px;
+    -webkit-box-shadow: 6px 6px 10px -5px rgba(191,191,191,1);
+    -moz-box-shadow: 6px 6px 10px -5px rgba(191,191,191,1);
+    box-shadow: 6px 6px 10px -5px rgba(191,191,191,1);
+}
+.entry-comments .entry-comments-single .entry-comments-single-header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.decile-comments .entry-comments-single-header-author {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    text-transform: capitalize;
+}
+.decile-comments.entry-comments {
+    display: grid;
+    gap: 15px;
+}
+.decile-comments .entry-comments-single-header {
+    border-bottom: 1px solid #ccc;
+    padding: 12px 8px;
+}
+.entry-comments .entry-comments-single .entry-comments-single-header:before {
+
+    position: relative;
+    margin: 3px 5px 0 0;
+    width: 20px;
+    top: 3px;
+    display: inline-block;
+}
+.entry-comments .entry-comments-single .entry-comments-single-header strong {
+    font: 500 22px 'Heebo', sans-serif;
+}
+.entry-comments .entry-comments-single .entry-comments-single-header small,
+.entry-comments .entry-comments-single small {
+    width: 100%;
+    display: block;
+    color: #657786;
+}
+.decile-comments.entry-comments .entry-comments-single .entry-comments-single-body p {
+    color: #222;
+    margin: 15px 0 0 0;
+    font: inherit;
+    white-space: break-spaces;
+    line-height: 20px;
+    padding: 8px;
+}
+.entry-comments .entry-comments-single:last-child {
+    border: none;
+}
+.container .subtitulo{
+    text-align: center;
+}
+.list{
+    width: 78%;
+}
+@media screen and (max-width: 768px) {
+    .decile-persona {
+        display: grid !important;
+        margin: 15px 0px;
+    }
+    .decile-persona .entry-data .entry-title {
+        padding: 0 0 0px 15px;
+        font: 600 20px / 24px 'Open Sans', sans-serif;
+    }
+    .decile-persona .entry-data .entry-description {
+        font: 400 18px / 22px 'Open Sans', sans-serif;
+    }
+    .container .decile-persona .image-person-single img {
+        width: 100% !important;
+    }
+    .list {
+        width: 85%;
+    }
+}
+
+/* Comment pagination */
+
+.decile-comments .navigation {
+    padding: 1rem 2px;
+    margin: 1rem 0;
+    border-radius: 0.2rem;
+    text-align: center;
+    gap: 0.5rem;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.decile-comments .page-numbers {
+    border: solid 1px #e0e0e0;
+    border-radius: 0.2rem;
+    color: #404040;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    padding: 0.5rem 0.9rem;
+    background: white;
+}
+
+.decile-comments .page-numbers:hover {
+    color: #f2f2f2;
+    background-color: #c42037;
+    border: solid 1px #c42037;
+}
+
+.decile-comments .current {
+    color: #f2f2f2;
+    background-color: #c42037;
+    border: solid 1px #c42037;
+}
+
+.decile-comments .btn-back .btn.btn-primary {
+    padding: 8px 12px;
+}
+
+/*
+* Decile widget preview
+ */
+
+/* Estilo del contenedor del widget */
+.decile-preview-widget {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+    -webkit-box-shadow: 6px 6px 10px -5px rgba(191,191,191,1);
+    -moz-box-shadow: 6px 6px 10px -5px rgba(191,191,191,1);
+    box-shadow: 6px 6px 10px -5px rgba(191,191,191,1);
+}
+
+/* Estilo del texto introductorio */
+.decile-intro {
+    background-color: #f9f9f9;
+    padding: 28px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.decile-intro h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #333;
+	line-height: 30px
+}
+
+.decile-intro p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #555;
+	line-height: 20px;
+}
+
+/* Estilo del título del personaje */
+.decile-preview-widget .entry-title {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.decile-preview-widget .entry-title a {
+    color: #1d1f20;
+    text-decoration: none;
+}
+
+.decile-preview-widget .entry-title a:hover {
+    color: #c42037;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+/* Estilo de la imagen destacada del personaje */
+.decile-persona-preview img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+/* Estilo del extracto y botones */
+.decile-preview-widget .entry-description {
+    margin-bottom: 15px;
+}
+
+.decile-preview-widget .entry-description p {
+    font-size: 1.1rem;
+    color: #333;
+}
+
+/* Botón para "Escribir" */
+.decile-preview-widget .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.decile-preview-widget .btn:hover {
+    background-color: #333;
+}
+
+.decile-preview-widget .recent-comments-carousel {
+    background: none;
+}
+
+/* Estilo del enlace de comentarios */
+.decile-preview-widget .entry-icon-comment {
+    font-size: 1rem;
+    color: #777;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.decile-preview-widget .entry-icon-comment:hover {
+    color: #1d1f20;
+}
+
+.decile-preview-widget .entry-thumbnail img {
+    max-width: 200px;
+}
+
+/* Espacio entre la imagen y el contenido */
+.decile-persona-preview {
+    margin-bottom: 20px;
+}
+
+.recent-comments-carousel {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+.slick-list.draggable {
+    position: relative;
+    overflow: hidden;
+    max-width: 600px;
+    height: 250px; /* Ajusta la altura del contenedor según lo necesites */
+    margin: 0 auto;
+    background-color: none;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* Pseudo-elemento para el difuminado en la parte superior */
+.slick-list.draggable::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40px; /* Altura del difuminado */
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+    z-index: 1; /* Asegura que el difuminado esté sobre los comentarios */
+    pointer-events: none; /* Permitir el arrastre debajo del pseudo-elemento */
+}
+
+/* Pseudo-elemento para el difuminado en la parte inferior */
+.slick-list.draggable::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40px; /* Altura del difuminado */
+    background: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+    z-index: 1; /* Asegura que el difuminado esté sobre los comentarios */
+    pointer-events: none; /* Permitir el arrastre debajo del pseudo-elemento */
+}
+
+/* Estilos de los comentarios dentro del carousel */
+.slick-list .slick-slide {
+    position: relative;
+    z-index: 2; /* Asegura que los comentarios estén detrás del difuminado */
+    padding: 10px;
+    text-align: center;
+    font-size: 1rem;
+    color: #333;
+}
+
+.carousel-comment {
+    text-align: center;
+    padding: 10px;
+}
+
+.comment-content p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.recent-comments-carousel .comment-author{
+   text-transform: capitalize;
+}
+
+.recent-comments-carousel .comment-thumbnail {
+    margin-bottom: 12px;
+}
+
+.social-share {
+    margin-top: 20px;
+}
+
+.social-share p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.social-button {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.social-button i {
+    margin-right: 8px; /* Separar el ícono del texto */
+}
+
+/* Estilos para los diferentes botones de redes sociales */
+.social-button.facebook {
+    background-color: #3b5998;
+    color: white;
+}
+
+.social-button.twitter {
+    background-color: #1da1f2;
+    color: white;
+}
+
+.social-button.linkedin {
+    background-color: #0077b5;
+    color: white;
+}
+
+.social-button.whatsapp {
+    background-color: #25d366;
+    color: white;
+}
+
+/* Efecto hover */
+.social-button:hover {
+    opacity: 0.8;
+}
+
+
+@media screen and (max-width: 768px) {
+	.entry-comments-single-header {
+    flex-direction: column;
+		gap: 10px;
+}
+}

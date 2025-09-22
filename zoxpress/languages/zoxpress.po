@@ -1,0 +1,2568 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ZoxPress 2.10.0\n"
+"POT-Creation-Date: 2022-03-24 17:00-0400\n"
+"PO-Revision-Date: 2022-11-23 10:48-0500\n"
+"Last-Translator: \n"
+"Language-Team: mvpthemes@gmail.com\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_e;_n;__;esc_html_e;esc_html__;"
+"_x\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:4 admin/admin-page.php:481
+msgid "Error"
+msgstr ""
+
+#: 404.php:5
+msgid "The page you requested does not exist or has moved."
+msgstr ""
+
+#: admin/admin-page.php:240
+msgid "Saving"
+msgstr ""
+
+#: admin/admin-page.php:241
+msgid ""
+"You are about to leave this page without saving. All changes will be lost."
+msgstr ""
+
+#: admin/admin-page.php:242
+msgid ""
+"WARNING: You are about to delete all your settings! Please confirm this "
+"action."
+msgstr ""
+
+#: admin/admin-page.php:244
+msgid ""
+"WARNING: You are about to restore your backup. This will overwrite all your "
+"settings! Please confirm this action."
+msgstr ""
+
+#: admin/admin-page.php:245
+msgid ""
+"WARNING: You are about to delete your backup. All unsaved options will be "
+"lost. We recommend that you save your options before deleting a backup. "
+"Please confirm this action."
+msgstr ""
+
+#: admin/admin-page.php:246
+msgid ""
+"WARNING: You are about to create a backup. All unsaved options will be lost. "
+"We recommend that you save your options before deleting a backup. Please "
+"confirm this action."
+msgstr ""
+
+#: admin/admin-page.php:247 admin/admin-page.php:1033
+msgid "Delete"
+msgstr ""
+
+#: admin/admin-page.php:448
+msgid "There are no options defined for this tab."
+msgstr ""
+
+#: admin/admin-page.php:477
+msgid "Save Options"
+msgstr ""
+
+#: admin/admin-page.php:479
+msgid "Quick Save"
+msgstr ""
+
+#: admin/admin-page.php:480
+msgid "Saved"
+msgstr ""
+
+#: admin/admin-page.php:541
+msgid "Insert "
+msgstr ""
+
+#: admin/admin-page.php:542
+msgid "Choose as "
+msgstr ""
+
+#: admin/admin-page.php:826 admin/admin-page.php:840
+msgid "Upload"
+msgstr ""
+
+#: admin/admin-page.php:827 admin/admin-page.php:841
+msgid "Clear"
+msgstr ""
+
+#: admin/admin-page.php:909
+msgid "Light"
+msgstr ""
+
+#: admin/admin-page.php:910
+msgid "Light Italic"
+msgstr ""
+
+#: admin/admin-page.php:911 admin/admin-page.php:917
+msgid "Normal"
+msgstr ""
+
+#: admin/admin-page.php:912
+msgid "Bold"
+msgstr ""
+
+#: admin/admin-page.php:913
+msgid "Italic"
+msgstr ""
+
+#: admin/admin-page.php:914
+msgid "Bold Italic"
+msgstr ""
+
+#: admin/admin-page.php:918 admin/admin-page.php:973
+msgid "Capitalize"
+msgstr ""
+
+#: admin/admin-page.php:919 admin/admin-page.php:974
+msgid "Uppercase"
+msgstr ""
+
+#: admin/admin-page.php:920
+msgid "Small Caps"
+msgstr ""
+
+#: admin/admin-page.php:961
+msgid "100"
+msgstr ""
+
+#: admin/admin-page.php:962
+msgid "200"
+msgstr ""
+
+#: admin/admin-page.php:963
+msgid "300"
+msgstr ""
+
+#: admin/admin-page.php:964
+msgid "400"
+msgstr ""
+
+#: admin/admin-page.php:965
+msgid "500"
+msgstr ""
+
+#: admin/admin-page.php:966
+msgid "600"
+msgstr ""
+
+#: admin/admin-page.php:967
+msgid "700"
+msgstr ""
+
+#: admin/admin-page.php:968
+msgid "800"
+msgstr ""
+
+#: admin/admin-page.php:969
+msgid "900"
+msgstr ""
+
+#: admin/admin-page.php:972 admin/options.php:497 admin/options.php:512
+#: admin/options.php:582 admin/options.php:617 admin/options.php:629
+#: admin/options.php:642 admin/options.php:682 admin/options.php:739
+#: admin/options.php:992 admin/options.php:1047 admin/options.php:1216
+msgid "None"
+msgstr ""
+
+#: admin/admin-page.php:975
+msgid "Lowercase"
+msgstr ""
+
+#: admin/admin-page.php:1028
+msgid "Back-up available"
+msgstr ""
+
+#: admin/admin-page.php:1029
+msgid ""
+"You options have been backed up. You can always restore your options by "
+"clicking the <strong>Restore</strong> button below:"
+msgstr ""
+
+#: admin/admin-page.php:1033
+msgid "Restore"
+msgstr ""
+
+#: admin/admin-page.php:1036
+msgid ""
+"You currently have not backups. You can create a backup by clicking the "
+"<strong>Backup Now</strong> link below:"
+msgstr ""
+
+#: admin/admin-page.php:1037
+msgid "Backup Now"
+msgstr ""
+
+#: admin/admin-page.php:1050
+msgid "Reset Options"
+msgstr ""
+
+#: admin/admin-page.php:1079
+msgid "Import Options"
+msgstr ""
+
+#: admin/admin-page.php:1167 admin/admin-page.php:1263
+msgid "Remove"
+msgstr ""
+
+#: admin/admin-page.php:1168
+msgid "Are you sure you want to delete this sidebar?"
+msgstr ""
+
+#: admin/admin-page.php:1169
+msgid ""
+"Sidebar name cannot be empty. Please provide a valid name for your sidebar."
+msgstr ""
+
+#: admin/admin-page.php:1170
+msgid ""
+"You already have a sidebar with that name. Please provide a valid name for "
+"your sidebar."
+msgstr ""
+
+#: admin/admin-page.php:1171
+msgid "Your sidebar has been succesfully created."
+msgstr ""
+
+#: admin/admin-page.php:1172 admin/admin-page.php:1267
+msgid ""
+"You currently have no sidebars created. <br>Use the form above to create "
+"your first sidebar."
+msgstr ""
+
+#: admin/admin-page.php:1243 admin/admin-page.php:1251
+msgid "Sidebars"
+msgstr ""
+
+#: admin/admin-page.php:1253
+msgid "Enter new sidebar name"
+msgstr ""
+
+#: admin/admin-page.php:1254
+msgid "Add Sidebar"
+msgstr ""
+
+#: admin/admin-page.php:1257
+msgid "Sidebar List"
+msgstr ""
+
+#: admin/admin-page.php:1341
+msgid "Sidebar"
+msgstr ""
+
+#: admin/admin-page.php:1354
+msgid "Choose Sidebar:"
+msgstr ""
+
+#: admin/admin-page.php:1356
+msgid "Choose Sidebar"
+msgstr ""
+
+#: admin/admin-page.php:1361
+msgid "Choose a custom sidebar for this page"
+msgstr ""
+
+#: admin/options.php:37
+msgid "General Settings"
+msgstr ""
+
+#: admin/options.php:41
+msgid "Pre-Set Theme Skin"
+msgstr ""
+
+#: admin/options.php:42
+msgid ""
+"Select the pre-set theme skin that will overwrite all other custom style "
+"settings. Choose Custom if you would like to select individual settings."
+msgstr ""
+
+#: admin/options.php:48
+msgid "Custom"
+msgstr ""
+
+#: admin/options.php:49 admin/options.php:683 admin/options.php:1217
+msgid "Entertainment 1"
+msgstr ""
+
+#: admin/options.php:50 admin/options.php:684 admin/options.php:1218
+msgid "Entertainment 2"
+msgstr ""
+
+#: admin/options.php:51 admin/options.php:685 admin/options.php:1219
+msgid "Entertainment 3"
+msgstr ""
+
+#: admin/options.php:52 admin/options.php:686 admin/options.php:1220
+msgid "Network 1"
+msgstr ""
+
+#: admin/options.php:53 admin/options.php:687 admin/options.php:1221
+msgid "Network 2"
+msgstr ""
+
+#: admin/options.php:54 admin/options.php:688 admin/options.php:1222
+msgid "Network 3"
+msgstr ""
+
+#: admin/options.php:55 admin/options.php:689 admin/options.php:1223
+msgid "Sports 1"
+msgstr ""
+
+#: admin/options.php:56 admin/options.php:690 admin/options.php:1224
+msgid "Sports 2"
+msgstr ""
+
+#: admin/options.php:57 admin/options.php:691 admin/options.php:1225
+msgid "Sports 3"
+msgstr ""
+
+#: admin/options.php:58 admin/options.php:692 admin/options.php:1226
+msgid "Fashion 1"
+msgstr ""
+
+#: admin/options.php:59 admin/options.php:693 admin/options.php:1227
+msgid "Fashion 2"
+msgstr ""
+
+#: admin/options.php:60 admin/options.php:694 admin/options.php:1228
+msgid "Fashion 3"
+msgstr ""
+
+#: admin/options.php:61 admin/options.php:695 admin/options.php:1229
+msgid "Tech 1"
+msgstr ""
+
+#: admin/options.php:62 admin/options.php:696 admin/options.php:1230
+msgid "Tech 2"
+msgstr ""
+
+#: admin/options.php:63 admin/options.php:697 admin/options.php:1231
+msgid "Tech 3"
+msgstr ""
+
+#: admin/options.php:66
+msgid "Content Layout"
+msgstr ""
+
+#: admin/options.php:67
+msgid "Select between Full-Width and Boxed for the layout of your site."
+msgstr ""
+
+#: admin/options.php:73 admin/options.php:427
+msgid "Full-Width"
+msgstr ""
+
+#: admin/options.php:74 admin/options.php:428
+msgid "Boxed"
+msgstr ""
+
+#: admin/options.php:77
+msgid "Content Width"
+msgstr ""
+
+#: admin/options.php:78
+msgid ""
+"If you have selecte the Boxed layout, set the width of the content area, in "
+"pixels."
+msgstr ""
+
+#: admin/options.php:87
+msgid "Right Sidebar Width"
+msgstr ""
+
+#: admin/options.php:88
+msgid "Set the width of the right sidebar throughout the site."
+msgstr ""
+
+#: admin/options.php:97
+msgid "Toggle Responsive Layout"
+msgstr ""
+
+#: admin/options.php:98
+msgid ""
+"Toggle the responsiveness of the theme. If this option is turned off, the "
+"theme will not adjust to smaller devices."
+msgstr ""
+
+#: admin/options.php:104
+msgid "Toggle Infinite Scroll"
+msgstr ""
+
+#: admin/options.php:105
+msgid ""
+"Toggle the Infinite Scroll feature on the homepage. If this option is turned "
+"off, the theme use pagination on the homepage instead of Infite Scroll."
+msgstr ""
+
+#: admin/options.php:111
+msgid "Toggle RTL"
+msgstr ""
+
+#: admin/options.php:112
+msgid ""
+"Toggle the RTL feature, which will display the theme's content from right to "
+"left."
+msgstr ""
+
+#: admin/options.php:117
+msgid "Dark Mode"
+msgstr ""
+
+#: admin/options.php:118
+msgid ""
+"Select whether to let the visitor toggle the Dark mode, turn it off, or keep "
+"it on all the time."
+msgstr ""
+
+#: admin/options.php:124
+msgid "Toggle"
+msgstr ""
+
+#: admin/options.php:125 admin/options.php:448
+msgid "Off"
+msgstr ""
+
+#: admin/options.php:126 admin/options.php:643
+msgid "Always On"
+msgstr ""
+
+#: admin/options.php:129
+msgid "Custom CSS"
+msgstr ""
+
+#: admin/options.php:130
+msgid ""
+"Enter your custom CSS here. You will not lose any of the CSS you enter here "
+"if you update the theme to a new version."
+msgstr ""
+
+#: admin/options.php:138 admin/options.php:1003
+msgid "Colors"
+msgstr ""
+
+#: admin/options.php:141
+msgid "Primary"
+msgstr ""
+
+#: admin/options.php:142
+msgid "Primary color for the site."
+msgstr ""
+
+#: admin/options.php:148
+msgid "Secondary"
+msgstr ""
+
+#: admin/options.php:149
+msgid "Secondary color for the site."
+msgstr ""
+
+#: admin/options.php:155
+msgid "Links"
+msgstr ""
+
+#: admin/options.php:156
+msgid "Primary link underline color for links within posts and pages."
+msgstr ""
+
+#: admin/options.php:162
+msgid "Top Nav"
+msgstr ""
+
+#: admin/options.php:163
+msgid "The background color for the top navigation."
+msgstr ""
+
+#: admin/options.php:169
+msgid "Top Nav Text"
+msgstr ""
+
+#: admin/options.php:170
+msgid "The color of the social buttons and text in the top navigation."
+msgstr ""
+
+#: admin/options.php:176
+msgid "Top Nav Hover"
+msgstr ""
+
+#: admin/options.php:177
+msgid "The text color when you mouse over an item in the top navigation."
+msgstr ""
+
+#: admin/options.php:183
+msgid "Bottom Nav Background"
+msgstr ""
+
+#: admin/options.php:184
+msgid "The background color for the bottom navigation menu."
+msgstr ""
+
+#: admin/options.php:190
+msgid "Bottom Nav Text"
+msgstr ""
+
+#: admin/options.php:191
+msgid ""
+"The color of the menu text, hamburger menu, search button, and shopping cart."
+msgstr ""
+
+#: admin/options.php:197
+msgid "Bottom Nav Hover"
+msgstr ""
+
+#: admin/options.php:198
+msgid "The text color when you mouse over an item in the bottom navigation."
+msgstr ""
+
+#: admin/options.php:204 admin/options.php:314
+msgid "Main Section Headers"
+msgstr ""
+
+#: admin/options.php:205 admin/options.php:212 admin/options.php:219
+msgid "The text color of the main section headers."
+msgstr ""
+
+#: admin/options.php:211 admin/options.php:326
+msgid "Sidebar Section Headers"
+msgstr ""
+
+#: admin/options.php:218 admin/options.php:339
+msgid "Post Section Headers"
+msgstr ""
+
+#: admin/options.php:225
+msgid "Footer Background"
+msgstr ""
+
+#: admin/options.php:226
+msgid "The background color for the footer section."
+msgstr ""
+
+#: admin/options.php:232
+msgid "Footer Text"
+msgstr ""
+
+#: admin/options.php:233
+msgid "The color of text within the footer section."
+msgstr ""
+
+#: admin/options.php:239
+msgid "Footer Links"
+msgstr ""
+
+#: admin/options.php:240
+msgid "The color of links within the footer section."
+msgstr ""
+
+#: admin/options.php:250
+msgid "Typography"
+msgstr ""
+
+#: admin/options.php:254
+msgid "Default"
+msgstr ""
+
+#: admin/options.php:255
+msgid ""
+"Select the font name, weight, and style of the font for the general content "
+"on all pages."
+msgstr ""
+
+#: admin/options.php:266
+msgid "Paragraphs"
+msgstr ""
+
+#: admin/options.php:267 admin/options.php:303
+msgid ""
+"Select the font name, weight, and style of the font for the excerpts and "
+"body content on articles."
+msgstr ""
+
+#: admin/options.php:278
+msgid "Navigation"
+msgstr ""
+
+#: admin/options.php:279
+msgid ""
+"Select the font name, weight, and style of the font for the top navigation "
+"menu."
+msgstr ""
+
+#: admin/options.php:290
+msgid "Featured Posts/Article Title"
+msgstr ""
+
+#: admin/options.php:291
+msgid ""
+"Select the font name, weight, and style of the font for the main featured "
+"posts and article title on post pages."
+msgstr ""
+
+#: admin/options.php:302
+msgid "General Headlines"
+msgstr ""
+
+#: admin/options.php:315
+msgid ""
+"Select the font name, weight, and style of font for the main section headers."
+msgstr ""
+
+#: admin/options.php:327
+msgid ""
+"Select the font name, weight, and style of font for the sidebar section "
+"headers."
+msgstr ""
+
+#: admin/options.php:340
+msgid ""
+"Select the font name, weight, and style of font for the post section headers."
+msgstr ""
+
+#: admin/options.php:354
+msgid "Logo Settings"
+msgstr ""
+
+#: admin/options.php:357
+msgid "Main Logo"
+msgstr ""
+
+#: admin/options.php:358
+msgid ""
+"Upload your main logo file. The recommended maximum dimensions for this logo "
+"are 600px wide, but it can be any height."
+msgstr ""
+
+#: admin/options.php:364
+msgid "Main Logo Retina"
+msgstr ""
+
+#: admin/options.php:365
+msgid ""
+"Upload the retina version of your main logo file. This file should be "
+"exactly twice the size of your main logo file. For example, if your main "
+"logo is 100x50, your retina logo should be 200x100. Your retina logo should "
+"also have the same name, but with @2x at the end. For example, if your main "
+"logo file is logo.png, your retina logo should be logo@2x.png."
+msgstr ""
+
+#: admin/options.php:371
+msgid "Main Dark Logo"
+msgstr ""
+
+#: admin/options.php:372
+msgid ""
+"Upload your main logo file that will be displayed when dark mode is toggled. "
+"This logo will appear on a dark background, so it is recommended that the "
+"logo be a white or light color. The recommended maximum dimensions for this "
+"logo are 600px wide, but it can be any height."
+msgstr ""
+
+#: admin/options.php:378
+msgid "Main Dark Logo Retina"
+msgstr ""
+
+#: admin/options.php:379
+msgid ""
+"Upload the retina version of your main dark mode logo file. This file should "
+"be exactly twice the size of your main logo file. For example, if your main "
+"logo is 100x50, your retina logo should be 200x100. Your retina logo should "
+"also have the same name, but with @2x at the end. For example, if your main "
+"logo file is logo.png, your retina logo should be logo@2x.png."
+msgstr ""
+
+#: admin/options.php:385
+msgid "Small Logo"
+msgstr ""
+
+#: admin/options.php:386
+msgid ""
+"Upload a logo file that will appear in your navigation and on mobile "
+"devices. The recommended maximum dimensions for this logo are 200x50."
+msgstr ""
+
+#: admin/options.php:392
+msgid "Small Logo Retina"
+msgstr ""
+
+#: admin/options.php:393
+msgid ""
+"Upload the retina version of your small logo file. This file should be "
+"exactly twice the size of your small logo file. For example, if your small "
+"logo is 100x50, your retina logo should be 200x100. Your retina logo should "
+"also have the same name, but with @2x at the end. For example, if your small "
+"logo file is logo.png, your retina logo should be logo@2x.png."
+msgstr ""
+
+#: admin/options.php:399
+msgid "Small Dark Logo"
+msgstr ""
+
+#: admin/options.php:400
+msgid ""
+"Upload a logo file that will appear in your navigation and on mobile devices "
+"when dark mode is toggled. This logo will appear on a dark background, so it "
+"is recommended that the logo be a white or light color. The recommended "
+"maximum dimensions for this logo are 200x50."
+msgstr ""
+
+#: admin/options.php:406
+msgid "Small Dark Logo Retina"
+msgstr ""
+
+#: admin/options.php:407
+msgid ""
+"Upload the retina version of your small dark mode logo. This file should be "
+"exactly twice the size of your small logo file. For example, if your small "
+"logo is 100x50, your retina logo should be 200x100. Your retina logo should "
+"also have the same name, but with @2x at the end. For example, if your small "
+"logo file is logo.png, your retina logo should be logo@2x.png."
+msgstr ""
+
+#: admin/options.php:417
+msgid "Header Settings"
+msgstr ""
+
+#: admin/options.php:420
+msgid "Header Layout"
+msgstr ""
+
+#: admin/options.php:421
+msgid ""
+"Select whether you want the header items to span the full width of the "
+"browser, or set with a specific content width."
+msgstr ""
+
+#: admin/options.php:431
+msgid "Header Width"
+msgstr ""
+
+#: admin/options.php:432
+msgid ""
+"If you have selected the Boxed layout, set the width of the navigation, in "
+"pixels."
+msgstr ""
+
+#: admin/options.php:441
+msgid "Sticky Navigation"
+msgstr ""
+
+#: admin/options.php:442
+msgid ""
+"Select whether you want the navigation to be sticky, either always, or only "
+"when scrolling up."
+msgstr ""
+
+#: admin/options.php:449 admin/options.php:618
+msgid "Always"
+msgstr ""
+
+#: admin/options.php:450
+msgid "Only Scroll Up"
+msgstr ""
+
+#: admin/options.php:453
+msgid "Top Navigation Settings"
+msgstr ""
+
+#: admin/options.php:456
+msgid "Toggle Top Navigation"
+msgstr ""
+
+#: admin/options.php:457
+msgid "Toggle on/off the top navigation."
+msgstr ""
+
+#: admin/options.php:462
+msgid "Toggle Large Logo"
+msgstr ""
+
+#: admin/options.php:463
+msgid "Toggle on/off the large logo in the top navigation."
+msgstr ""
+
+#: admin/options.php:469
+msgid "Top Navigation Height"
+msgstr ""
+
+#: admin/options.php:470
+msgid "Set the height of the top navigation, in pixels."
+msgstr ""
+
+#: admin/options.php:479
+msgid "Top Navigation Font Size"
+msgstr ""
+
+#: admin/options.php:480
+msgid "Set the font size of the top navigation menu, in pixels."
+msgstr ""
+
+#: admin/options.php:490
+msgid "Top Navigation Left"
+msgstr ""
+
+#: admin/options.php:491
+msgid ""
+"Select what to display in the left area of the Top Navigation. If you choose "
+"to display a secondary menu, the large logo will not be available in the top "
+"navigation."
+msgstr ""
+
+#: admin/options.php:498 admin/options.php:584
+msgid "Logo"
+msgstr ""
+
+#: admin/options.php:499 admin/options.php:513
+msgid "Social Media"
+msgstr ""
+
+#: admin/options.php:500 admin/options.php:514
+msgid "Shopping Cart"
+msgstr ""
+
+#: admin/options.php:501 admin/options.php:515
+msgid "HTML"
+msgstr ""
+
+#: admin/options.php:502 admin/options.php:516 functions.php:695
+msgid "Secondary Menu"
+msgstr ""
+
+#: admin/options.php:505
+msgid "Top Navigation Right"
+msgstr ""
+
+#: admin/options.php:506
+msgid ""
+"Select what to display in the right area of the Top Navigation. If you "
+"choose to display a secondary menu, the large logo will not be available in "
+"the top navigation."
+msgstr ""
+
+#: admin/options.php:519
+msgid "Top Navigation Social Buttons"
+msgstr ""
+
+#: admin/options.php:520
+msgid ""
+"If you have chosen to display social media buttons in your top navigation, "
+"select up to four (4) social media sites to display there. Go to the Social "
+"Media Settings section of the Theme Options to enter your the URLs to your "
+"social media sites."
+msgstr ""
+
+#: admin/options.php:526 admin/options.php:1253
+msgid "Facebook"
+msgstr ""
+
+#: admin/options.php:527 admin/options.php:1260
+msgid "Twitter"
+msgstr ""
+
+#: admin/options.php:528 admin/options.php:1267
+msgid "Instagram"
+msgstr ""
+
+#: admin/options.php:529 admin/options.php:1274
+msgid "TikTok"
+msgstr ""
+
+#: admin/options.php:530 admin/options.php:1281
+msgid "Youtube"
+msgstr ""
+
+#: admin/options.php:531
+msgid "LinkedIn"
+msgstr ""
+
+#: admin/options.php:532 admin/options.php:1295
+msgid "Pinterest"
+msgstr ""
+
+#: admin/options.php:533 admin/options.php:1302
+msgid "Tumblr"
+msgstr ""
+
+#: admin/options.php:536
+msgid "Top Navigation Social Button Style"
+msgstr ""
+
+#: admin/options.php:537
+msgid "Select the style for the top navigation social buttons."
+msgstr ""
+
+#: admin/options.php:543
+msgid "Standard"
+msgstr ""
+
+#: admin/options.php:544
+msgid "Circle Outline"
+msgstr ""
+
+#: admin/options.php:547
+msgid "Top Navigation Custom HTML"
+msgstr ""
+
+#: admin/options.php:548
+msgid ""
+"If you have chosen to display custom HTML in the top navigation, you can "
+"enter your custom HTML here."
+msgstr ""
+
+#: admin/options.php:552
+msgid "Bottom Navigation Settings"
+msgstr ""
+
+#: admin/options.php:555
+msgid "Bottom Navigation Height"
+msgstr ""
+
+#: admin/options.php:556
+msgid "Set the height of the bottom navigation, in pixels."
+msgstr ""
+
+#: admin/options.php:565
+msgid "Bottom Navigation Font Size"
+msgstr ""
+
+#: admin/options.php:566
+msgid "Set the font size of the bottom navigation menu, in pixels."
+msgstr ""
+
+#: admin/options.php:575
+msgid "Bottom Navigation Center"
+msgstr ""
+
+#: admin/options.php:576
+msgid "Select what to display in the center of the Bottom Navigation."
+msgstr ""
+
+#: admin/options.php:583 functions.php:694
+msgid "Main Menu"
+msgstr ""
+
+#: admin/options.php:587
+msgid "Main Menu Alignment"
+msgstr ""
+
+#: admin/options.php:588
+msgid "Select the alignment of the main menu."
+msgstr ""
+
+#: admin/options.php:594
+msgid "Left"
+msgstr ""
+
+#: admin/options.php:595
+msgid "Center"
+msgstr ""
+
+#: admin/options.php:596
+msgid "Right"
+msgstr ""
+
+#: admin/options.php:599
+msgid "Mobile Menu Button Visibility"
+msgstr ""
+
+#: admin/options.php:600
+msgid "Select when to display the mobile menu button."
+msgstr ""
+
+#: admin/options.php:606
+msgid "All Devices"
+msgstr ""
+
+#: admin/options.php:607
+msgid "Mobile Only"
+msgstr ""
+
+#: admin/options.php:610
+msgid "Small Logo Visibility"
+msgstr ""
+
+#: admin/options.php:611
+msgid "Select when the small logo in the bottom navigation is visible."
+msgstr ""
+
+#: admin/options.php:619
+msgid "On Scroll"
+msgstr ""
+
+#: admin/options.php:622
+msgid "Bottom Navigation Border"
+msgstr ""
+
+#: admin/options.php:623
+msgid ""
+"Select whether you want to display a gray border above, below (or both) the "
+"bottom navigation, typically if you are using a white bottom navigation "
+"color."
+msgstr ""
+
+#: admin/options.php:630
+msgid "Above"
+msgstr ""
+
+#: admin/options.php:631
+msgid "Below"
+msgstr ""
+
+#: admin/options.php:632
+msgid "Both"
+msgstr ""
+
+#: admin/options.php:635
+msgid "Bottom Navigation Shadow"
+msgstr ""
+
+#: admin/options.php:636
+msgid ""
+"Select whether you want to display a shadow below the bottom navigation, or "
+"only when the nav is sticky when scrolling."
+msgstr ""
+
+#: admin/options.php:644
+msgid "Only On Scroll"
+msgstr ""
+
+#: admin/options.php:647
+msgid "Toggle Megamenus"
+msgstr ""
+
+#: admin/options.php:648
+msgid "Toggle on/off the Megamenu feature for Category menu items."
+msgstr ""
+
+#: admin/options.php:654
+msgid "Toggle Transparent Bottom Nav"
+msgstr ""
+
+#: admin/options.php:655
+msgid ""
+"Toggle on/off the transparent bottom navigation. This should only be used if "
+"you are using certain Featured Posts layouts"
+msgstr ""
+
+#: admin/options.php:661
+msgid "Transparent Bottom Nav Logo"
+msgstr ""
+
+#: admin/options.php:662
+msgid ""
+"Upload your logo file for the transparent bottom navigation. The recommended "
+"maximum dimensions for this logo are 200x50."
+msgstr ""
+
+#: admin/options.php:672
+msgid "Homepage Settings"
+msgstr ""
+
+#: admin/options.php:675 admin/options.php:1209
+msgid "Featured Posts Layout"
+msgstr ""
+
+#: admin/options.php:676
+msgid "Select the layout of your Featured Posts section on the homepage."
+msgstr ""
+
+#: admin/options.php:700
+msgid "Featured Posts Tag"
+msgstr ""
+
+#: admin/options.php:701
+msgid ""
+"Enter the Tag you want associated with the Featured Posts section. Posts "
+"with this Tag will be displayed in the Featured Posts Section at the top of "
+"the homepage."
+msgstr ""
+
+#: admin/options.php:708
+msgid "Homepage Body Layout"
+msgstr ""
+
+#: admin/options.php:709
+msgid ""
+"Select your layout for the body of the homepage that will appear in the main "
+"content area of the homepage."
+msgstr ""
+
+#: admin/options.php:715 admin/options.php:1139
+msgid "Widgets"
+msgstr ""
+
+#: admin/options.php:716 admin/options.php:742
+msgid "Blog"
+msgstr ""
+
+#: admin/options.php:717
+msgid "Widgets and Blog"
+msgstr ""
+
+#: admin/options.php:720
+msgid "Homepage Blog Layout"
+msgstr ""
+
+#: admin/options.php:721
+msgid "Select the layout for the blog section of the homepage."
+msgstr ""
+
+#: admin/options.php:727 admin/options.php:1241
+msgid "Rows"
+msgstr ""
+
+#: admin/options.php:728 admin/options.php:1242
+msgid "3 Columns"
+msgstr ""
+
+#: admin/options.php:729 admin/options.php:1243
+msgid "4 Columns"
+msgstr ""
+
+#: admin/options.php:732
+msgid "Homepage Right Sidebar"
+msgstr ""
+
+#: admin/options.php:733
+msgid "Select how to display the widetized sidebar on your homepage."
+msgstr ""
+
+#: admin/options.php:740
+msgid "Full"
+msgstr ""
+
+#: admin/options.php:741
+msgid "Widget and Blog"
+msgstr ""
+
+#: admin/options.php:745
+msgid "Number of posts per page"
+msgstr ""
+
+#: admin/options.php:746
+msgid ""
+"Set the number of posts per page that you want displayed on the Homepage "
+"Blog and the Latest News Template."
+msgstr ""
+
+#: admin/options.php:755
+msgid "Show/Hide Excerpts"
+msgstr ""
+
+#: admin/options.php:756
+msgid "Select whether to show/hide the excerpts throughout the site."
+msgstr ""
+
+#: admin/options.php:762 admin/options.php:773 admin/options.php:784
+#: admin/options.php:945 admin/options.php:956 admin/options.php:967
+msgid "Show"
+msgstr ""
+
+#: admin/options.php:763 admin/options.php:774 admin/options.php:785
+#: admin/options.php:946 admin/options.php:957 admin/options.php:968
+msgid "Hide"
+msgstr ""
+
+#: admin/options.php:766
+msgid "Show/Hide Author Name"
+msgstr ""
+
+#: admin/options.php:767
+msgid "Select whether to show/hide the author name throughout the site."
+msgstr ""
+
+#: admin/options.php:777
+msgid "Show/Hide Publish Date"
+msgstr ""
+
+#: admin/options.php:778
+msgid "Select whether to show/hide the publish date throughout the site."
+msgstr ""
+
+#: admin/options.php:792
+msgid "Style Settings"
+msgstr ""
+
+#: admin/options.php:795
+msgid "Main Theme Style"
+msgstr ""
+
+#: admin/options.php:796
+msgid "Select the main theme style."
+msgstr ""
+
+#: admin/options.php:802 admin/options.php:819
+msgid "Standard 1"
+msgstr ""
+
+#: admin/options.php:803 admin/options.php:820
+msgid "Standard 2"
+msgstr ""
+
+#: admin/options.php:804 admin/options.php:821
+msgid "Standard 3"
+msgstr ""
+
+#: admin/options.php:805 admin/options.php:822
+msgid "Standard 4"
+msgstr ""
+
+#: admin/options.php:806 admin/options.php:823
+msgid "Standard 5"
+msgstr ""
+
+#: admin/options.php:807 admin/options.php:824
+msgid "Standard 6"
+msgstr ""
+
+#: admin/options.php:808 admin/options.php:825
+msgid "Standard 7"
+msgstr ""
+
+#: admin/options.php:809 admin/options.php:826
+msgid "Standard 8"
+msgstr ""
+
+#: admin/options.php:812
+msgid "Standard Featured Post Style"
+msgstr ""
+
+#: admin/options.php:813
+msgid "Select the style for the standard featured post layouts."
+msgstr ""
+
+#: admin/options.php:829
+msgid "Overlay Featured Post Style"
+msgstr ""
+
+#: admin/options.php:830
+msgid "Select the style for the overlay featured post layouts."
+msgstr ""
+
+#: admin/options.php:836
+msgid "Overlay 1"
+msgstr ""
+
+#: admin/options.php:837
+msgid "Overlay 2"
+msgstr ""
+
+#: admin/options.php:838
+msgid "Overlay 3"
+msgstr ""
+
+#: admin/options.php:839
+msgid "Overlay 4"
+msgstr ""
+
+#: admin/options.php:840
+msgid "Overlay 5"
+msgstr ""
+
+#: admin/options.php:841
+msgid "Overlay 6"
+msgstr ""
+
+#: admin/options.php:844
+msgid "Main Section Header Style"
+msgstr ""
+
+#: admin/options.php:845
+msgid "Select the style of the main section headers."
+msgstr ""
+
+#: admin/options.php:851 admin/options.php:872 admin/options.php:893
+msgid "Style 1"
+msgstr ""
+
+#: admin/options.php:852 admin/options.php:873 admin/options.php:894
+msgid "Style 2"
+msgstr ""
+
+#: admin/options.php:853 admin/options.php:874 admin/options.php:895
+msgid "Style 3"
+msgstr ""
+
+#: admin/options.php:854 admin/options.php:875 admin/options.php:896
+msgid "Style 4"
+msgstr ""
+
+#: admin/options.php:855 admin/options.php:876 admin/options.php:897
+msgid "Style 5"
+msgstr ""
+
+#: admin/options.php:856 admin/options.php:877 admin/options.php:898
+msgid "Style 6"
+msgstr ""
+
+#: admin/options.php:857 admin/options.php:878 admin/options.php:899
+msgid "Style 7"
+msgstr ""
+
+#: admin/options.php:858 admin/options.php:879 admin/options.php:900
+msgid "Style 8"
+msgstr ""
+
+#: admin/options.php:859 admin/options.php:880 admin/options.php:901
+msgid "Style 9"
+msgstr ""
+
+#: admin/options.php:860 admin/options.php:881 admin/options.php:902
+msgid "Style 10"
+msgstr ""
+
+#: admin/options.php:861 admin/options.php:882 admin/options.php:903
+msgid "Style 11"
+msgstr ""
+
+#: admin/options.php:862 admin/options.php:883 admin/options.php:904
+msgid "Style 12"
+msgstr ""
+
+#: admin/options.php:865
+msgid "Sidebar Section Header Style"
+msgstr ""
+
+#: admin/options.php:866
+msgid "Select the style of the sidebar section headers."
+msgstr ""
+
+#: admin/options.php:886
+msgid "Post Section Header Style"
+msgstr ""
+
+#: admin/options.php:887
+msgid "Select the style of the post section headers."
+msgstr ""
+
+#: admin/options.php:911
+msgid "Article Settings"
+msgstr ""
+
+#: admin/options.php:914
+msgid "Default Post Template"
+msgstr ""
+
+#: admin/options.php:915
+msgid "Select the default Post Template layout for your articles."
+msgstr ""
+
+#: admin/options.php:920
+msgid "Template 1"
+msgstr ""
+
+#: admin/options.php:921
+msgid "Template 2"
+msgstr ""
+
+#: admin/options.php:922
+msgid "Template 3"
+msgstr ""
+
+#: admin/options.php:923
+msgid "Template 4"
+msgstr ""
+
+#: admin/options.php:924
+msgid "Template 5"
+msgstr ""
+
+#: admin/options.php:925
+msgid "Template 6"
+msgstr ""
+
+#: admin/options.php:926
+msgid "Template 7"
+msgstr ""
+
+#: admin/options.php:929
+msgid "Article Content Width"
+msgstr ""
+
+#: admin/options.php:930
+msgid "Set the width of the content area, in pixels."
+msgstr ""
+
+#: admin/options.php:938
+msgid "Show/Hide Article Sidebar"
+msgstr ""
+
+#: admin/options.php:939
+msgid "Select whether to show/hide the widgetized sidebar in posts."
+msgstr ""
+
+#: admin/options.php:949
+msgid "Show/Hide Featured Images/Videos"
+msgstr ""
+
+#: admin/options.php:950
+msgid ""
+"Select whether to show/hide Featured Images and Featured Videos in all posts."
+msgstr ""
+
+#: admin/options.php:960
+msgid "Show/Hide Author Info"
+msgstr ""
+
+#: admin/options.php:961
+msgid "Select whether to show/hide the author's name and thumbnail in posts."
+msgstr ""
+
+#: admin/options.php:971
+msgid "Post Link Hover Style"
+msgstr ""
+
+#: admin/options.php:972
+msgid "Select the link hover style for links within your posts."
+msgstr ""
+
+#: admin/options.php:978
+msgid "Solid Color"
+msgstr ""
+
+#: admin/options.php:979
+msgid "Underline"
+msgstr ""
+
+#: admin/options.php:982
+msgid "Social Sharing Buttons"
+msgstr ""
+
+#: admin/options.php:983
+msgid ""
+"Select whether to display the default social sharing buttons, and in what "
+"locations."
+msgstr ""
+
+#: admin/options.php:989
+msgid "Scrolling"
+msgstr ""
+
+#: admin/options.php:990
+msgid "Static"
+msgstr ""
+
+#: admin/options.php:991
+msgid "Scrolling and Static"
+msgstr ""
+
+#: admin/options.php:995
+msgid "Social Sharing Buttons Style"
+msgstr ""
+
+#: admin/options.php:996
+msgid "Select the style for your social sharing buttons."
+msgstr ""
+
+#: admin/options.php:1002
+msgid "Outline/Solid"
+msgstr ""
+
+#: admin/options.php:1006
+msgid "Toggle Full-Width Featured Image"
+msgstr ""
+
+#: admin/options.php:1007
+msgid ""
+"Toggle on/off displaying the Featured Image the full width of the screen in "
+"posts. Only works with certain Post Templates."
+msgstr ""
+
+#: admin/options.php:1012
+msgid "Toggle Center Post Header"
+msgstr ""
+
+#: admin/options.php:1013
+msgid "Toggle on/off centering the post title, excerpt, and post information."
+msgstr ""
+
+#: admin/options.php:1019
+msgid "Toggle Sticky Video"
+msgstr ""
+
+#: admin/options.php:1020
+msgid ""
+"Toggle on/off making the Featured Video stick to the bottom of posts when "
+"scrolling."
+msgstr ""
+
+#: admin/options.php:1026
+msgid "Toggle Author Box"
+msgstr ""
+
+#: admin/options.php:1027
+msgid ""
+"Toggle on/off displaying the author info box at the bottom of your posts."
+msgstr ""
+
+#: admin/options.php:1032
+msgid "More Posts Header"
+msgstr ""
+
+#: admin/options.php:1033
+msgid "Enter the title of the More Posts section"
+msgstr ""
+
+#: admin/options.php:1038 parts/blog-wrap.php:130
+msgid "More Posts"
+msgstr ""
+
+#: admin/options.php:1039
+msgid ""
+"Select what to display in the more posts section from the bottom of your "
+"posts."
+msgstr ""
+
+#: admin/options.php:1045
+msgid "Trending Posts"
+msgstr ""
+
+#: admin/options.php:1046
+msgid "Related Posts"
+msgstr ""
+
+#: admin/options.php:1050
+msgid "Number of More Posts"
+msgstr ""
+
+#: admin/options.php:1051
+msgid ""
+"Set the number of posts that you want displayed in the More Posts section on "
+"your posts."
+msgstr ""
+
+#: admin/options.php:1060
+msgid "Trending Posts Days"
+msgstr ""
+
+#: admin/options.php:1061
+msgid ""
+"Number of days to use for Trending Posts. Only posts published within this "
+"length of time will be displayed in the Trending Posts section."
+msgstr ""
+
+#: admin/options.php:1068
+msgid "Disqus Forum Shortname"
+msgstr ""
+
+#: admin/options.php:1069
+msgid ""
+"If you want to use Disqus for your comments, enter your Disqus Forum "
+"Shortname in order to activate Disqus on your site. This is the unique "
+"identifier for your website in Disqus (i.e. yourforumshortname.disqus.com)"
+msgstr ""
+
+#: admin/options.php:1075
+msgid "Article Ad Settings"
+msgstr ""
+
+#: admin/options.php:1078
+msgid "Article Inline Ad Image"
+msgstr ""
+
+#: admin/options.php:1079
+msgid ""
+"Upload the image that will appear in your article content. Use this option "
+"if you do not want to use typical ad code and simply want to provide an "
+"image and a click-through URL, and/or if you would like to utilize the "
+"parallax ad feature."
+msgstr ""
+
+#: admin/options.php:1085
+msgid "Insert Ad Every X Paragraphs"
+msgstr ""
+
+#: admin/options.php:1086
+msgid ""
+"Set the frequency that the article ads will appear. For example, if you set "
+"the number to 4, there will be an ad inserted after every 4th paragraph."
+msgstr ""
+
+#: admin/options.php:1095
+msgid "Article Inline Ad Click-Through URL"
+msgstr ""
+
+#: admin/options.php:1096
+msgid "Enter the URL for your article content ad click-through."
+msgstr ""
+
+#: admin/options.php:1102
+msgid "Toggle Parallax Author Ad"
+msgstr ""
+
+#: admin/options.php:1103
+msgid "Toggle on/off the parallax feature for the article ads."
+msgstr ""
+
+#: admin/options.php:1108
+msgid "Article Inline Ad Code"
+msgstr ""
+
+#: admin/options.php:1109
+msgid ""
+"Enter your ad code (Eg. Google Adsense, Taboola, HTML, or Javascript) for "
+"the article ad(s) within the body of articles."
+msgstr ""
+
+#: admin/options.php:1113
+msgid "Article Bottom Ad Code"
+msgstr ""
+
+#: admin/options.php:1114
+msgid ""
+"Enter your ad code (Eg. Google Adsense, Taboola, HTML, or Javascript) for "
+"the article ad at the bottom of articles."
+msgstr ""
+
+#: admin/options.php:1122
+msgid "Auto Load Posts Settings"
+msgstr ""
+
+#: admin/options.php:1126
+msgid "Toggle Auto Load Posts"
+msgstr ""
+
+#: admin/options.php:1127
+msgid "Toggle on/off Auto Load Posts feature."
+msgstr ""
+
+#: admin/options.php:1132
+msgid "Auto Load Posts Sidebar Layout"
+msgstr ""
+
+#: admin/options.php:1133
+msgid "Select the sidebar layout for Auto Load Posts pages."
+msgstr ""
+
+#: admin/options.php:1138
+msgid "Latest"
+msgstr ""
+
+#: admin/options.php:1140
+msgid "No Sidebar"
+msgstr ""
+
+#: admin/options.php:1143
+msgid "Number of Auto Load Posts"
+msgstr ""
+
+#: admin/options.php:1144
+msgid ""
+"Set the maximum number of Auto Load Posts. This number of posts will be "
+"loaded in the sidebar when the page loads."
+msgstr ""
+
+#: admin/options.php:1152
+msgid "Auto Load Posts Sidebar Ad Code"
+msgstr ""
+
+#: admin/options.php:1153
+msgid ""
+"Enter your ad code (Eg. Google Adsense) for the ad area in the Auto Load "
+"Posts sidebar. The maximum width of this area is 330px, but it can be any "
+"height. The area was designed to ideally display 300x250 or 300x500 ads."
+msgstr ""
+
+#: admin/options.php:1161
+msgid "Google AMP Settings"
+msgstr ""
+
+#: admin/options.php:1164
+msgid "Toggle Google AMP on mobile devices"
+msgstr ""
+
+#: admin/options.php:1165
+msgid ""
+"Toggle on/off the Google AMP compatibility with the theme. You will also "
+"need to install and activate the AMP plugin that comes with the theme."
+msgstr ""
+
+#: admin/options.php:1171
+msgid "Facebook App ID"
+msgstr ""
+
+#: admin/options.php:1172
+msgid ""
+"In order to utilize the Google AMP Facebook share button, you must provide a "
+"valid Facebook App ID."
+msgstr ""
+
+#: admin/options.php:1178
+msgid "Google AMP Logo Width"
+msgstr ""
+
+#: admin/options.php:1179
+msgid "Set the width of your Google AMP logo here."
+msgstr ""
+
+#: admin/options.php:1188
+msgid "Google AMP Logo Height"
+msgstr ""
+
+#: admin/options.php:1189
+msgid "Set the height of your Google AMP logo here."
+msgstr ""
+
+#: admin/options.php:1202
+msgid "Category Settings"
+msgstr ""
+
+#: admin/options.php:1205 admin/options.php:1316
+msgid "Attention!"
+msgstr ""
+
+#: admin/options.php:1207
+msgid ""
+"To set the number of posts that are displayed on category pages, go to "
+"Settings > Reading and change the 'Blog page show at most' number."
+msgstr ""
+
+#: admin/options.php:1210
+msgid "Select the layout of your Featured Posts section on the category pages."
+msgstr ""
+
+#: admin/options.php:1234
+msgid "Archive Blog Layout"
+msgstr ""
+
+#: admin/options.php:1235
+msgid ""
+"Select the layout for the blog section of your category and archive pages."
+msgstr ""
+
+#: admin/options.php:1250
+msgid "Social Media Settings"
+msgstr ""
+
+#: admin/options.php:1254
+msgid "Enter your full Facebook Page URL here."
+msgstr ""
+
+#: admin/options.php:1261
+msgid "Enter your full Twitter URL here."
+msgstr ""
+
+#: admin/options.php:1268
+msgid "Enter your full Instagram URL here."
+msgstr ""
+
+#: admin/options.php:1275
+msgid "Enter your full TikTok URL here."
+msgstr ""
+
+#: admin/options.php:1282
+msgid "Enter your full Youtube URL here."
+msgstr ""
+
+#: admin/options.php:1288
+msgid "Linkedin"
+msgstr ""
+
+#: admin/options.php:1289
+msgid "Enter your full Linkedin URL here."
+msgstr ""
+
+#: admin/options.php:1296
+msgid "Enter your full Pinterest URL here."
+msgstr ""
+
+#: admin/options.php:1303
+msgid "Enter your full Tumblr URL here."
+msgstr ""
+
+#: admin/options.php:1313
+msgid "Ad Management Settings"
+msgstr ""
+
+#: admin/options.php:1318
+msgid "The 300x250 ads are controlled via a Widget."
+msgstr ""
+
+#: admin/options.php:1320
+msgid "Toggle Parallax Leaderboard"
+msgstr ""
+
+#: admin/options.php:1321
+msgid ""
+"If you are using the leaderboard ad area above the navigation, toggle on/off "
+"the parallax leaderboard feature. If this feature is disabled, then the "
+"theme will use a traditional static leaderboard feature."
+msgstr ""
+
+#: admin/options.php:1327
+msgid "Top Leaderboard Pages"
+msgstr ""
+
+#: admin/options.php:1328
+msgid ""
+"Select whether to display the top leaderboard only on the homepage or on all "
+"pages."
+msgstr ""
+
+#: admin/options.php:1334 admin/options.php:1345
+msgid "Homepage Only"
+msgstr ""
+
+#: admin/options.php:1335 admin/options.php:1346 admin/options.php:1412
+msgid "All Pages"
+msgstr ""
+
+#: admin/options.php:1338
+msgid "Bottom Leaderboard Pages"
+msgstr ""
+
+#: admin/options.php:1339
+msgid ""
+"Select whether to display the bottom leaderboard only on the homepage, on "
+"all pages, or on all pages except for the homepage."
+msgstr ""
+
+#: admin/options.php:1347
+msgid "All w/o Homepage"
+msgstr ""
+
+#: admin/options.php:1350
+msgid "Top Leaderboard Ad Image"
+msgstr ""
+
+#: admin/options.php:1351
+msgid ""
+"Upload the image for your top leaderboard ad. Use this option if you do not "
+"want to use typical ad code and simply want to provide an image and a click-"
+"through URL."
+msgstr ""
+
+#: admin/options.php:1357
+msgid "Bottom Leaderboard Ad Image"
+msgstr ""
+
+#: admin/options.php:1358
+msgid ""
+"Upload the image for your bottom leaderboard ad. Use this option if you do "
+"not want to use typical ad code and simply want to provide an image and a "
+"click-through URL."
+msgstr ""
+
+#: admin/options.php:1364
+msgid "Top Leaderboard Ad Click-Through URL"
+msgstr ""
+
+#: admin/options.php:1365
+msgid "Enter the URL for your top leaderboard ad click-through."
+msgstr ""
+
+#: admin/options.php:1371
+msgid "Bottom Leaderboard Ad Click-Through URL"
+msgstr ""
+
+#: admin/options.php:1372
+msgid "Enter the URL for your bottom leaderboard ad click-through."
+msgstr ""
+
+#: admin/options.php:1378
+msgid "Top Leaderboard Ad Code"
+msgstr ""
+
+#: admin/options.php:1379
+msgid ""
+"If you prefer to use traditional ad code for your ads, enter your ad code "
+"(Eg. Google Adsense) here. This ad code will be displayed in the leaderboard "
+"area above the navigation. You can place any size ad in this section."
+msgstr ""
+
+#: admin/options.php:1384
+msgid "Bottom Leaderboard Ad Code"
+msgstr ""
+
+#: admin/options.php:1385
+msgid ""
+"If you prefer to use traditional ad code for your ads, enter your ad code "
+"(Eg. Google Adsense) here. This ad code will be displayed in the leaderboard "
+"area below the navigation. You can place any size ad in this section."
+msgstr ""
+
+#: admin/options.php:1390
+msgid "Wallpaper Ad Image"
+msgstr ""
+
+#: admin/options.php:1391
+msgid ""
+"Upload your Wallpaper Ad image. The Wallpaper Ad image should be a minimum "
+"of 1280px wide. Please see the theme documentation for more on wallpaper ad "
+"specifications."
+msgstr ""
+
+#: admin/options.php:1397
+msgid "Wallpaper Ad Click-Through URL"
+msgstr ""
+
+#: admin/options.php:1398
+msgid "Enter the URL for your wallpaper ad click-through."
+msgstr ""
+
+#: admin/options.php:1404
+msgid "Wallpaper Ad Pages"
+msgstr ""
+
+#: admin/options.php:1405
+msgid ""
+"Select whether to display the Wallpaper Ad only on the homepage or on all "
+"pages."
+msgstr ""
+
+#: admin/options.php:1411
+msgid "Home Only"
+msgstr ""
+
+#: admin/options.php:1419
+msgid "Footer Info"
+msgstr ""
+
+#: admin/options.php:1422
+msgid "Footer Logo"
+msgstr ""
+
+#: admin/options.php:1423
+msgid ""
+"Upload a logo file that will appear in your footer. There are no maximum "
+"recommended dimensions for this logo size."
+msgstr ""
+
+#: admin/options.php:1429
+msgid "Footer Logo Retina"
+msgstr ""
+
+#: admin/options.php:1430
+msgid ""
+"Upload the retina version of your footer logo file. This file should be "
+"exactly twice the size of your small logo file. For example, if your footer "
+"logo is 100x50, your retina logo should be 200x100. Your retina logo should "
+"also have the same name, but with @2x at the end. For example, if your "
+"footer logo file is logo.png, your retina logo should be logo@2x.png."
+msgstr ""
+
+#: admin/options.php:1436
+msgid "Copyright Text"
+msgstr ""
+
+#: admin/options.php:1437
+msgid "Here you can enter any text you want (eg. copyright text)"
+msgstr ""
+
+#: admin/options.php:1446
+msgid "Theme Settings Options"
+msgstr ""
+
+#: admin/options.php:1450
+msgid "Backup Theme Options"
+msgstr ""
+
+#: admin/options.php:1451
+msgid ""
+"Create a backup for your current Theme Options. You can then restore the "
+"Theme Options with this save at a later date."
+msgstr ""
+
+#: admin/options.php:1457
+msgid "Reset Theme Options"
+msgstr ""
+
+#: admin/options.php:1458
+msgid ""
+"Reset your Theme Options to the original settings when you first installed "
+"the theme. This will delete any changes you made to the Theme Options since "
+"installing the theme."
+msgstr ""
+
+#: admin/options.php:1463
+msgid "Export Field"
+msgstr ""
+
+#: admin/options.php:1464
+msgid ""
+"Theme Options Export Field. You can copy these settings and paste them in an "
+"external file for later use."
+msgstr ""
+
+#: admin/options.php:1469
+msgid "Import Field"
+msgstr ""
+
+#: admin/options.php:1470
+msgid ""
+"Import Theme Options code by pasting it here and clicking the Import Options "
+"link below."
+msgstr ""
+
+#: archive.php:7 author-list.php:11
+msgid "All posts tagged"
+msgstr ""
+
+#: comments.php:4
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: comments.php:20 parts/post/post-body.php:75
+msgid "1 Comment"
+msgstr ""
+
+#: comments.php:27 comments.php:38
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:28 comments.php:39
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:53
+msgid "You must be logged in to post a comment"
+msgstr ""
+
+#: comments.php:55
+msgid "Login"
+msgstr ""
+
+#: comments.php:64 comments.php:65
+msgid "Leave a Reply"
+msgstr ""
+
+#: functions.php:614
+msgid "Default Sidebar Widget Area"
+msgstr ""
+
+#: functions.php:615
+msgid "The default widgetized sidebar."
+msgstr ""
+
+#: functions.php:624
+msgid "Homepage Widget Area"
+msgstr ""
+
+#: functions.php:625
+msgid "The widgetized area in the main content area of the homepage."
+msgstr ""
+
+#: functions.php:634
+msgid "Homepage Sidebar Widget Area"
+msgstr ""
+
+#: functions.php:635
+msgid "The widgetized sidebar on the homepage."
+msgstr ""
+
+#: functions.php:644
+msgid "Featured Sidebar Widget Area"
+msgstr ""
+
+#: functions.php:645
+msgid ""
+"The widgetized sidebar for the right side of the Featured Posts area, if "
+"available."
+msgstr ""
+
+#: functions.php:654
+msgid "Post/Page Sidebar Widget Area"
+msgstr ""
+
+#: functions.php:655
+msgid "The widgetized sidebar on posts and pages."
+msgstr ""
+
+#: functions.php:664
+msgid "WooCommerce Sidebar Widget Area"
+msgstr ""
+
+#: functions.php:665
+msgid "The widgetized sidebar on your WooCommerce pages."
+msgstr ""
+
+#: functions.php:674
+msgid "SportsPress Sidebar Widget Area"
+msgstr ""
+
+#: functions.php:675
+msgid "The widgetized sidebar on your SportsPress pages."
+msgstr ""
+
+#: functions.php:696
+msgid "Fly-Out Menu"
+msgstr ""
+
+#: functions.php:697
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:800
+#, php-format
+msgid "%s "
+msgstr ""
+
+#: functions.php:803
+msgid "at"
+msgstr ""
+
+#: functions.php:804 functions.php:825
+msgid "Edit"
+msgstr ""
+
+#: functions.php:809
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions.php:825
+msgid "Pingback:"
+msgstr ""
+
+#: functions.php:1102
+msgid "Page"
+msgstr ""
+
+#: functions.php:1102
+msgid "of"
+msgstr ""
+
+#: functions.php:1103
+msgid "First"
+msgstr ""
+
+#: functions.php:1104
+msgid "Previous"
+msgstr ""
+
+#: functions.php:1114
+msgid "Next"
+msgstr ""
+
+#: functions.php:1115
+msgid "Last"
+msgstr ""
+
+#: functions.php:1135 functions.php:1137 functions.php:1140
+msgid "Advertisement. Scroll to continue reading."
+msgstr ""
+
+#: header.php:13
+msgid "Hi, what are you looking for?"
+msgstr ""
+
+#: parts/alp/alp-side.php:27 parts/post/post-foot.php:25
+msgid "Advertisement"
+msgstr ""
+
+#: parts/amp/amp-single.php:2048 parts/amp/amp-single.php:2063
+#: parts/post/post-head.php:15 parts/post/post-head.php:30
+msgid "Published"
+msgstr ""
+
+#: parts/amp/amp-single.php:2048 parts/amp/amp-single.php:2063
+#: parts/amp/amp-single.php:2202 parts/amp/amp-single.php:2218
+#: parts/art-text1.php:15 parts/art-text1b.php:11 parts/art-text1c.php:15
+#: parts/art-text2.php:15 parts/art-text2b.php:15 parts/post/post-head.php:15
+#: parts/post/post-head.php:30
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: parts/amp/amp-single.php:2060 parts/post/post-head.php:27
+msgid "By"
+msgstr ""
+
+#: parts/amp/amp-single.php:2136 parts/post/post-body.php:9
+msgid "In this article:"
+msgstr ""
+
+#: parts/amp/amp-single.php:2154 parts/post/post-body.php:62
+#: parts/post/post-body.php:68
+msgid "Comments"
+msgstr ""
+
+#: parts/art-text2.php:4 parts/art-text2b.php:4
+msgid "Sticky Post"
+msgstr ""
+
+#: parts/blog-wrap.php:113
+msgid "Sorry, your search did not match any entries."
+msgstr ""
+
+#: parts/featured/feat-ent.php:51
+msgid "Latest News"
+msgstr ""
+
+#: parts/fly-menu.php:49
+msgid "Connect with us"
+msgstr ""
+
+#: parts/header-top.php:13 parts/header-top.php:47
+msgid "View your shopping cart"
+msgstr ""
+
+#: parts/post/post-body.php:15
+msgid "Up Next"
+msgstr ""
+
+#: parts/post/post-body.php:20
+msgid "Don't Miss"
+msgstr ""
+
+#: parts/post/post-body.php:36
+msgid "Written By"
+msgstr ""
+
+#: parts/post/post-body.php:75
+msgid "Click to comment"
+msgstr ""
+
+#: parts/post/post-body.php:75
+msgid "% Comments"
+msgstr ""
+
+#: parts/theme-options.php:22 parts/theme-options.php:29
+msgid "on"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:393
+#: plugins/class-tgm-plugin-activation.php:912
+#: plugins/class-tgm-plugin-activation.php:2618
+#: plugins/class-tgm-plugin-activation.php:3665
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:394
+#: plugins/class-tgm-plugin-activation.php:3244
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:395
+#: plugins/class-tgm-plugin-activation.php:3037
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:1019
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:1019
+#: plugins/class-tgm-plugin-activation.php:1022
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:1022
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2067
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2358
+msgid "Required"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2361
+msgid "Recommended"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2377
+msgid "WordPress Repository"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2380
+msgid "External Source"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2383
+msgid "Pre-Packaged"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2400
+msgid "Not Installed"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2404
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2406
+msgid "Active"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2412
+msgid "Required Update not Available"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2415
+msgid "Requires Update"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2418
+msgid "Update recommended"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2427
+#, php-format
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2477
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2481
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2485
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2567
+msgid "unknown"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2575
+msgid "Installed version:"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2583
+msgid "Minimum required version:"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2595
+msgid "Available version:"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2618
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2632
+msgid "Plugin"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2633
+msgid "Source"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2634
+msgid "Type"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2638
+msgid "Version"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2639
+msgid "Status"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2688
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2693
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2699
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2769
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2802
+msgid "Install"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2808
+msgid "Update"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2811
+msgid "Activate"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2842
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2844
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2885
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2887
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2993
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:3019
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:3243
+msgid "Plugin activation failed."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:3583
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:3586
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:3588
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:3592
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:3594
+#: plugins/class-tgm-plugin-activation.php:3602
+msgid "Show Details"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:3594
+#: plugins/class-tgm-plugin-activation.php:3602
+msgid "Hide Details"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:3595
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:3597
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:3603
+msgid "All installations have been completed."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: search.php:6
+msgid "Search results for"
+msgstr ""
+
+#: search.php:29 search.php:30 searchform.php:2 searchform.php:3
+msgid "Search"
+msgstr ""

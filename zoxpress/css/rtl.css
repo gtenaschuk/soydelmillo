@@ -1,0 +1,1513 @@
+/************************************************
+	Table of Contents
+
+1. Body
+2. Hyperlinks
+3. Layout
+4. Header
+5. Navigation
+6. Fly-Out Navigation
+7. Featured Posts
+8. Homepage
+9. Sidebar
+10. Posts
+11. Auto Load Posts
+12. Comments
+13. Archives
+14. WooCommerce
+15. Footer
+16. Pagination
+17. SportsPress
+
+************************************************/
+
+/************************************************
+	1. Body
+************************************************/
+
+body {
+	direction:rtl;
+	text-align: right;
+	unicode-bidi:embed;
+	}
+
+#truethemes_container #main {
+float: right;
+}
+
+/************************************************
+	2. Hyperlinks
+************************************************/
+
+
+/************************************************
+	3. Layout
+************************************************/
+
+.right,
+.alignright {
+	float: left;
+	}
+
+.alignright {
+	margin: 20px 20px 20px 0;
+	}
+
+.left,
+.alignleft {
+	float: right;
+	}
+
+.alignleft {
+	margin: 30px 0 30px 30px;
+	}
+
+#zox-wallpaper {
+	right: 0;
+	left: auto;
+	}
+
+.zox-sport3 .zox_feat_list_widget .zox-title-width {
+	margin: 0 20px 0 0;
+}
+
+/************************************************
+	4. Header
+************************************************/
+
+#zox-top-head {
+	float: right;
+}
+
+#zox-top-head-right {
+	justify-content: end;
+}
+
+.zox-top-soc-wrap {
+	right: 0;
+	left: auto;
+}
+
+#zox-top-head-right .zox-top-soc-wrap {
+	right: auto;
+	left: 0;
+}
+
+span.mvp-top-soc-but {
+	float: right;
+}
+
+span.zox-woo-cart-icon {
+	float: left;
+	margin: 0 0 0 10px;
+	}
+
+span.zox-woo-cart-num {
+	float: left;
+	}
+
+#zox-bot-head-right {
+	justify-content: end;
+}
+
+.zox-bot-head-logo {
+	right: 0;
+	left: auto;
+}
+
+.zox-bot-head-menu {
+	padding: 0 90px 0 0;
+}
+
+.zox-trans-head:before {
+	right: 0;
+	left: auto;
+}
+
+/************************************************
+	5. Navigation
+************************************************/
+
+.zox-nav-menu ul,
+.zox-top-nav-menu ul {
+	float: right;
+	}
+
+#zox-top-head-right .zox-top-nav-menu ul {
+	float: left;
+}
+
+.zox-nav-menu ul li a,
+.zox-top-nav-menu ul li a {
+	float: right;
+}
+
+#zox-top-head-left .zox-top-nav-menu ul {
+	right: -10px;
+	left: auto;
+	text-align: right;
+}
+
+#zox-top-head-right .zox-top-nav-menu ul {
+	left: -10px;
+	right: auto;
+	text-align: left;
+}
+
+.zox-nav-menu ul li.zox-mega-drop ul li a:after,
+.zox-nav-menu ul li.menu-item-has-children ul.sub-menu li a:after,
+.zox-nav-menu ul li.menu-item-has-children ul.sub-menu li ul.sub-menu li a:after,
+.zox-nav-menu ul li.menu-item-has-children ul.sub-menu li ul.sub-menu li ul.sub-menu li a:after,
+.zox-nav-menu ul li.menu-item-has-children ul.mvp-mega-list li a:after {
+	left: auto;
+	right: auto;
+	}
+
+.zox-nav-menu ul li.menu-item-has-children a:after,
+.zox-nav-menu ul li.zox-mega-drop a:after,
+.zox-nav-menu ul li:hover ul.sub-menu li.menu-item-has-children a:after,
+.zox-nav-menu ul li:hover ul.sub-menu li ul.sub-menu li.menu-item-has-children a:after {
+	left: -5px;
+	right: auto;
+	}
+
+.zox-nav-menu ul li.menu-item-has-children a,
+.zox-nav-menu ul li.zox-mega-drop a {
+	margin-left: 15px;
+	margin-right: 0;
+}
+
+.zox-nav-menu ul li ul.sub-menu {
+	right: -7px;
+	left: auto;
+	text-align: right;
+	}
+
+.zox-nav-menu ul li ul.sub-menu:after {
+	right: 30px;
+	left: auto;
+}
+
+.zox-nav-menu ul li ul.sub-menu li {
+	float: right;
+	}
+
+.zox-nav-menu ul li ul.sub-menu li a {
+	float: right;
+	}
+
+.zox-nav-menu ul li ul.sub-menu ul.sub-menu li ul,
+.zox-nav-menu ul li ul.sub-menu li ul,
+.zox-fix-up .zox-nav-menu ul li ul.sub-menu ul.sub-menu li ul,
+.zox-fix-up .zox-nav-menu ul li ul.sub-menu li ul {
+	right: 200px;
+	left: auto;
+	}
+
+.zox-nav-menu ul li:hover ul.sub-menu li.menu-item-has-children a:after,
+.zox-nav-menu ul li:hover ul.sub-menu li ul.sub-menu li.menu-item-has-children a:after {
+	left: 10px;
+	right: auto;
+	transform: rotate(135deg);
+	}
+
+.zox-nav-menu ul li ul.zox-mega-list li a,
+.zox-nav-menu ul li ul.zox-mega-list li a p {
+	float: right;
+	text-align: right;
+	}
+
+.zox-nav-menu ul.zox-mega-list {
+	float: right;
+	right: auto;
+	left: auto;
+	}
+
+ul.zox-mega-list li {
+	float: right;
+	}
+
+.zox-mega-img {
+	float: right;
+	}
+
+#zox-search-wrap {
+	right: 0;
+	left: auto;
+	}
+
+.zox-search-but-wrap {
+	left: 80px;
+	right: auto;
+}
+
+.zox-side-widget #zox-search-form,
+.zox-widget-home #zox-search-form,
+#zox-search-form2 {
+	float: right;
+}
+
+#zox-search-input,
+#zox-search-input2 {
+	float: right;
+	}
+	
+#zox-search-form #zox-search-submit,
+#zox-search-form2 #zox-search-submit2 {
+	left: 0;
+	right: auto;
+	}
+
+.zox-fly-top {
+	left: 0;
+	right: auto;
+	text-align: center;
+	}
+
+.zox-dark .zox-feat-net3-sub-wrap .zox-art-wrap {
+	border-right: 1px solid #333;
+	border-left: none;
+}
+
+/************************************************
+	6. Fly-Out Navigation
+************************************************/
+
+#zox-fly-wrap {
+	right: 0;
+	left: auto;
+	-webkit-transform: translate3d(100%,0,0);
+	   -moz-transform: translate3d(100%,0,0);
+	    -ms-transform: translate3d(100%,0,0);
+	     -o-transform: translate3d(100%,0,0);
+		transform: translate3d(100%,0,0);
+	}
+
+#zox-fly-logo {
+	padding: 0 50px 0 0;
+	}
+
+#zox-fly-wrap .zox-fly-but-wrap {
+	margin: 17px 24px 17px 0;
+}
+
+.zox-fly-but-wrap span,
+.zox-search-but-wrap span {
+	right: 0;
+	left: auto;
+	}
+
+.zox-fly-but-wrap.zox-fly-open span:nth-child(1),
+.zox-fly-but-wrap.zox-fly-open span:nth-child(4) {
+	right: 50%;
+	left: auto;
+	}
+
+.zox-fly-but-menu {
+	float: right;
+	margin-right: 15px;
+	margin-left: 0;
+	}
+
+.zox-fly-content,
+.zox-nav-over {
+	-webkit-transform: translate3d(-100%,0,0) !important;
+	   -moz-transform: translate3d(-100%,0,0) !important;
+	    -ms-transform: translate3d(-100%,0,0) !important;
+	     -o-transform: translate3d(-100%,0,0) !important;
+		transform: translate3d(-100%,0,0) !important;
+	}
+
+#zox-fly-menu-wrap {
+	right: 0;
+	left: auto;
+	}
+
+nav.zox-fly-nav-menu ul {
+	float: right;
+	}
+
+nav.zox-fly-nav-menu ul li {
+	float: right;
+	}
+
+nav.zox-fly-nav-menu ul li.menu-item-has-children:after {
+	left: 0;
+	right: auto;
+	}
+
+nav.zox-fly-nav-menu ul li.menu-item-has-children.tog-minus:after {
+	left: 4px;
+	right: auto;
+	}
+
+nav.zox-fly-nav-menu ul li ul.sub-menu {
+	float: right;
+	padding-right: 20px;
+	padding-left: 0;
+	}
+
+.zox-fly-fade {
+	right: 0;
+	left: auto;
+	}
+
+#zox-fly-soc-wrap {
+	right: 0;
+	left: auto;
+	}
+
+ul.zox-fly-soc-list li a {
+	margin-right: 2px;
+	margin-left: 0;
+	}
+
+ul.zox-fly-soc-list li:first-child a {
+	margin-right: 0;
+	}
+
+/************************************************
+	7. Featured Posts
+************************************************/
+
+.zox-post-type {
+	margin: -35px -35px 0 0;
+	right: 50%;
+	left: auto;
+}
+
+.zox-post-type span {
+	margin: 0 2px 0 0;
+	opacity: 1;
+}
+
+.zox-widget-featl-sub .zox-post-type {
+	margin: -15px -15px 0 0;
+}
+
+.zox-widget-featl-sub .zox-post-type span {
+	margin: 0 1px 0 0;
+}
+
+h3.zox-s-cat {
+	float: right;
+}
+
+.zox-sport3 h3.zox-s-cat {
+	margin: 0 0 7px;
+}
+
+span.zox-s-cat {
+	float: right;
+}
+
+p.zox-s-graph {
+	float: right;
+}
+
+.zox-byline-wrap {
+	float: right;
+}
+
+span.zox-byline-date {
+	margin: 0 7px 0 0;
+}
+
+span.zox-byline-date i {
+	margin: 0 0 0 5px;
+}
+
+.zox-divr .zox-art-grid {
+	grid-gap: 40px;
+	grid-template-areas: 'zox-img zox-text';
+	grid-template-columns: minmax(auto, 600px) minmax(300px, calc(100% - 600px));
+}
+
+.zox-side-widget .zox-divr .zox-art-mid .zox-art-grid {
+	grid-gap: 15px;
+	grid-template-columns: 80px auto;
+}
+
+.zox-tech2 .zox-divr .zox-art-grid,
+.zox-tech3 .zox-divr .zox-art-grid {
+	grid-template-columns: 240px auto;
+}
+
+.zox-divr .zox-art-text,
+.zox-s4 .zox-divr .zox-art-text,
+.zox-s5 .zox-divr .zox-art-text {
+	text-align: right;
+}
+
+.zox-s1.zox-div1 .zox-art-wrap,
+.zox-s2.zox-div1 .zox-art-wrap,
+.zox-s3.zox-div1 .zox-art-wrap,
+.zox-s4.zox-div1 .zox-art-wrap,
+.zox-s5.zox-div1 .zox-art-wrap,
+.zox-s6.zox-div1 .zox-art-wrap,
+.zox-s1.zox-div23 .zox-art-grid,
+.zox-s2.zox-div23 .zox-art-grid,
+.zox-s3.zox-div23 .zox-art-grid,
+.zox-s4.zox-div23 .zox-art-grid,
+.zox-s5.zox-div23 .zox-art-grid,
+.zox-o3.zox-div2 .zox-art-wrap {
+	grid-template-areas: 'zox-img zox-text';
+	grid-template-columns: 3fr 2fr;
+}
+
+.zox-s1 .zox-divr .zox-art-text {
+	text-align: right;
+}
+
+.zox-s2.zox-div23 .zox-art-text,
+.zox-s3.zox-div23 .zox-art-text {
+	text-align: right;
+}
+
+.zox-s2 .zox-widget-altimg-wrap .zox-art-text {
+	text-align: right;
+}
+
+.zox-s2 h3.zox-s-cat {
+	right: 0;
+	left: auto;
+}
+
+
+.zox-s2 .zox-div1 h3.zox-s-cat,
+.zox-s2 .zox-div23 h3.zox-s-cat,
+.zox-s2 .zox-divr h3.zox-s-cat,
+.zox-s2 .zox-divs h3.zox-s-cat,
+.zox-s2 .zox-widget-altimg-wrap h3.zox-s-cat {
+	text-align: right;
+}
+
+.zox-s3 .zox-art-text {
+	text-align: right;
+}
+
+.zox-s3 h3.zox-s-cat {
+	right: 0;
+	left: auto;
+}
+
+.zox-s3 .zox-art-small h3.zox-s-cat {
+	right: auto;
+}
+
+.zox-s3 span.zox-s-cat,
+.zox-o1 span.zox-s-cat {
+	float: right;
+}
+
+.zox-s4 .zox-art-text {
+	text-align: right;
+}
+
+.zox-s4 h3.zox-s-cat {
+	right: 0;
+	left: auto;
+}
+
+.zox-s4 .zox-widget-altimg-wrap h3.zox-s-cat {
+	right: auto;
+}
+
+.zox-s4 .zox-div1 h3.zox-s-cat,
+.zox-s4 .zox-divr h3.zox-s-cat,
+.zox-s4 .zox-art-small h3.zox-s-cat {
+	right: auto;
+}
+
+.zox-s4 span.zox-s-cat {
+	float: right;
+}
+
+.zox-s5.zox-div1 .zox-art-wrap,
+.zox-s5.zox-div23 .zox-art-wrap {
+	grid-template-areas: 'zox-text zox-img';
+}
+
+.zox-s5.zox-div1 .zox-art-wrap {
+	grid-gap: 40px;
+	grid-template-columns: 1fr 2fr;
+}
+
+.zox-s6 .zox-art-wrap {
+	float: right;
+}
+
+.zox-s6 .zox-art-text {
+	text-align: right;
+}
+
+.zox-s6 .zox-widget-txtw .zox-widget-featl-sub .zox-art-text {
+	padding: 0 0 0 15px;
+}
+
+.zox-s7.zox-div1 .zox-art-wrap,
+.zox-s7.zox-div23 .zox-art-wrap {
+	grid-template-areas: 'zox-text zox-img';
+}
+
+.zox-s7 .zox-art-text {
+	right: 20px;
+	left: auto;
+}
+
+.zox-s7 .zox-byline-wrap:before {
+	right: 0;
+	left: auto;
+}
+
+.zox-s8.zox-div1 .zox-art-grid {
+	grid-template-areas: 'zox-text zox-img';
+	grid-template-columns: 1fr 2fr;
+}
+
+.zox-s8 .zox-divr .zox-art-grid {
+	grid-template-areas: 'zox-img zox-text';
+	grid-template-columns: 2fr 3fr;
+}
+
+.zox-s8 .zox-div4 .zox-art-text {
+	padding: 0 15px 0 20px;
+}
+
+.zox-s8 h3.zox-s-cat {
+	right: 0;
+	left: auto;
+}
+
+.zox-s8.zox-div1 h3.zox-s-cat,
+.zox-s8 .zox-divr h3.zox-s-cat,
+.zox-s8 .zox-widget-altimg-wrap h3.zox-s-cat {
+	right: auto;
+}
+
+.zox-s8 .zox-divr h3.zox-s-cat {
+	margin: 0 10px 5px 0;
+}
+
+.zox-s8 span.zox-s-cat {
+	padding: 3px 0 3px 8px;
+}
+
+.zox-s8 .zox-art-title {
+	float: right;
+	margin: 0 10px 0 0;
+}
+
+.zox-o1 .zox-art-text {
+	right: 0;
+	left: auto;
+	text-align: right;
+}
+
+.zox-o1 .zox-art-title,
+.zox-o1.zox-div1 .zox-art-title {
+	float: right;
+	margin: 0 10px 0 0;
+}
+
+.zox-o1 h3.zox-s-cat{
+	right: auto;
+}
+
+.zox-o3 .zox-art-text {
+	text-align: right;
+}
+
+.zox-o3.zox-div1 .zox-art-text,
+.zox-o3.zox-div23 .zox-art-text {
+	right: 4%;
+	left: auto;
+}
+
+.zox-o3 h3.zox-s-cat {
+	margin: 0 -30px 20px 0;
+	padding: 15px 30px 15px 60px;
+}
+
+.zox-o4 .zox-art-text,
+.zox-o5 .zox-art-text,
+.zox-o2 .zox-art-text,
+.zox-o6 .zox-art-text {
+	float: right;
+	right: 0;
+	left: auto;
+}
+
+.zox-o4 .zox-art-text {
+	text-align: right;
+}
+
+.zox-o4 h3.zox-s-cat {
+	right: auto;
+}
+
+.zox-o5 .zox-art-text {
+	left: auto;
+}
+
+.zox-o5 .zox-byline-wrap:before {
+	margin: 0 -40px 0 0;
+	right: 50%;
+	left: auto;
+}
+
+.zox-o2 .zox-art-text {
+	left: auto;
+}
+
+.zox-o6 .zox-art-text {
+	text-align: right;
+}
+
+.zox-feat-ent1-left .zox-art-text {
+	text-align: right;
+}
+
+.zox-feat-net3-sub-wrap .zox-art-wrap {
+	border-right: 1px solid #ddd;
+	border-left: none;
+}
+
+.zox-feat-net3-sub-wrap .zox-art-wrap:first-child {
+	border-right: 0;
+}
+
+.zox-feat-sports3-sub .zox-art-text {
+	float: right;
+}
+
+.zox-feat-fash1-sub-wrap .zox-art-wrap:nth-child(odd) {
+	margin: 0 0 0 40px;
+}
+
+.zox-feat-fash2-grid h3.zox-s-cat,
+.zox-fash2 .zox-widget-flex1-col .zox-art-text h3.zox-s-cat {
+	right: 0;
+	left: auto;
+}
+
+.zox-feat-tech2-main {
+	grid-template-columns: 5fr 3fr;
+}
+
+/************************************************
+	8. Homepage
+************************************************/
+
+#zox-home-body-wrap {
+	grid-template-columns: auto 300px;
+}
+
+.zox-sport3 .zox_feat_widget .zox-widget-main-head {
+	right: 20px;
+	left: auto;
+}
+
+.zox-widget-main-head {
+	float: right;
+}
+
+.zox-widget-txtw h4.zox-widget-main-title {
+	text-align: right;
+}
+
+.zox-widget-flex1-ad {
+	grid-template-columns: auto 300px;
+}
+
+.zox-side-widget .zox-widget-flex1-adr {
+	float: right;
+}
+
+.zox-net1 .zox-divr .zox-art-grid,
+.zox-net2 .zox-divr .zox-art-grid {
+	grid-gap: 30px;
+	grid-template-columns: minmax(auto, 250px) minmax(250px, calc(100% - 250px));
+}
+
+.zox-sport1 .zox-divr .zox-art-grid {
+	grid-template-columns: 340px auto;
+}
+
+.zox-sport3 .zox-divr .zox-art-grid {
+	grid-template-columns: 240px auto;
+}
+
+.zox-net3 .zox-divr .zox-art-grid {
+	grid-template-columns: minmax(auto, 340px) minmax(320px, calc(100% - 340px));
+}
+
+.zox-widget-flex1-adl .zox-widget-flex1-ad {
+	grid-template-areas: 'widget-ad widget-cont';
+	grid-template-columns: 300px auto;
+}
+
+.zox-widget-flex1-adl .zox-widget-flex1-ad .zox-widget-flex1-cont {
+	border-right: 1px solid #ddd;
+	border-left: none;
+	padding: 0 40px 0 0;
+}
+
+.zox-widget-altimg-wrap .zox-widget-altimg-grid .zox-art-wrap:nth-child(odd) .zox-art-grid {
+	grid-template-areas: 'zox-img zox-text';
+}
+
+.zox-widget-altimg-over .zox-widget-altimg-grid .zox-art-wrap:nth-child(odd) .zox-art-grid {
+	grid-template-columns: auto 440px;
+}
+
+.zox-widget-altimg-wrap .zox-widget-altimg-grid .zox-art-wrap:nth-child(even) .zox-art-grid {
+	grid-template-areas: 'zox-text zox-img';
+}
+
+.zox-s3 .zox-widget-altimg-wrap .zox-widget-altimg-grid h3.zox-s-cat {
+	right: auto;
+}
+
+.zox-widget-altimg-over .zox-widget-altimg-grid .zox-art-wrap:nth-child(even) .zox-art-grid {
+	grid-template-columns: 440px auto;
+}
+
+.zox-s8 .zox-widget-altimg-over .zox-widget-altimg-grid .zox-art-wrap:nth-child(odd) .zox-art-text-cont {
+	margin-right: -20%;
+	margin-left: 0;
+}
+
+.zox-widget-bg {
+	float: right;
+}
+
+.zox-widget-featl-grid {
+	grid-template-columns: minmax(auto,1000px) minmax(400px,calc(100% - 1000px));
+}
+
+.zox-widget-featl-sub {
+	margin: 0 15px 0 0;
+}
+
+.zox-widget-featl-sub .zox-art-grid {
+	grid-template-areas: 'zox-img zox-text';
+	grid-template-columns: 88px auto;
+}
+
+.zox-widget-featl-sub .zox-art-text {
+	padding: 0 0 0 15px;
+	text-align: right;
+}
+
+.zox-widget-feat-over .zox-art-text {
+	right: 0;
+	left: auto;
+}
+
+.zox-blog-grid.zox-divr .zox-art-text,
+.zox-s6 .zox-divr .zox-art-text,
+.zox-s2 .zox-divr .zox-art-text {
+	padding: 0 0 0 40px;
+	text-align: right;
+}
+
+/************************************************
+	9. Sidebar
+************************************************/
+
+.zox-widget-side-head {
+	float: right;
+}
+
+h4.zox-widget-side-title {
+	float: right;
+}
+
+.zox-side-widget {
+	float: right;
+}
+
+.zox-widget-ad {
+	float: right;
+}
+
+.zox-widget-ad span.zox-ad-label,
+.alp-advert span.zox-ad-label,
+.zox-post-ad-wrap span.zox-ad-label,
+.zox-post-bot-ad span.zox-ad-label {
+	float: right;
+}
+
+.zox-post-ad-wrap span.zox-ad-label {
+	right: 0;
+	left: auto;
+}
+
+ul.zox-widget-tab-head li {
+	float: right;
+}
+
+ul.zox-widget-tab-head li a {
+	float: right;
+}
+
+.zox-side-list-wrap {
+	float: right;
+}
+
+.zox-widget-tab-head-wrap {
+	margin: 0 -20px 15px 0;
+}
+
+.zox-widget-tab-wrap .zox-art-grid {
+	grid-template-areas: 'zox-img zox-text';
+	grid-template-columns: 50px auto;
+}
+
+.zox-widget-tab-wrap h2.zox-s-title3 {
+	float: right;
+}
+
+.zox-widget-side-trend-wrap .zox-art-text,
+.zox-divs .zox-widget-side-trend-wrap .zox-art-text,
+.zox-s1 .zox-widget-side-trend-wrap .zox-art-text,
+.zox-s7 .zox-divs .zox-widget-side-trend-wrap .zox-art-text {
+	padding: 0 41px 0 0;
+	text-align: right;
+}
+
+.zox-widget-side-trend-wrap .zox-art-text:before {
+	right: 0;
+	left: auto;
+}
+
+.zox-s3 .zox-widget-side-trend-wrap .zox-art-grid {
+	grid-template-areas: 'zox-img zox-text';
+	grid-template-columns: 100px auto;
+}
+
+.zox-s3 .zox-widget-side-trend-wrap .zox-art-text {
+	text-align: right;
+}
+
+.zox-s3 .zox-widget-side-trend-wrap .zox-art-text:before {
+	right: 0;
+	left: auto;
+}
+
+.zox-s4 .zox-widget-side-trend-wrap .zox-art-text,
+.zox-s4 .zox-divs .zox-widget-side-trend-wrap .zox-art-text {
+	padding: 0 32px 0 0;
+}
+
+.zox-s5 .zox-divs .zox-widget-side-trend-wrap .zox-art-text {
+	padding: 0 46px 0 0;
+}
+
+.zox-s6 .zox-divs .zox-widget-side-trend-wrap .zox-art-text,
+.zox-s6 .zox-widget-side-trend-wrap .zox-art-small .zox-art-text {
+	padding: 0 30px 0 0;
+}
+
+.zox-s8 .zox-divs .zox-widget-side-trend-wrap .zox-art-text {
+	padding: 0 24px 0 0;
+}
+
+.zox-s8 .zox-widget-side-trend-wrap .zox-art-text:before {
+	justify-content: start;
+}
+
+.widget_calendar {
+	float: right;
+	}
+
+#wp-calendar caption {
+	text-align: left;
+	}
+
+#wp-calendar tfoot #next {
+	text-align: left;
+	}
+
+.widget_rss ul,
+.widget_rss ul li {
+	float: right;
+	}
+
+.widget_rss ul li a {
+	float: right;
+	}
+
+.widget_rss ul li span.rss-date {
+	float: right;
+	}
+
+.widget_rss ul li .rssSummary {
+	float: right;
+	}
+
+.widget_rss ul li cite {
+	float: right;
+	}
+
+.widget_recent_entries li {
+	float: right;
+	}
+
+.widget_categories ul,
+.widget_categories ul li,
+.widget_archive ul,
+.widget_archive ul li,
+.widget_recent_comments ul,
+.widget_recent_comments ul li,
+.widget_pages ul,
+.widget_pages ul li {
+	float: right;
+	}
+
+.widget_categories ul li,
+.widget_archive ul li,
+.widget_pages ul li,
+.widget_meta ul li,
+.widget_nav_menu ul li {
+	float: right;
+	}
+
+.widget_categories ul li ul,
+.widget_pages ul li ul,
+.widget_nav_menu ul li ul {
+	padding: 0 10px 0 0;
+}
+
+.textwidget p,
+.textwidget div {
+	float: right;
+	}
+
+.tagcloud {
+	float: right;
+}
+
+#zox-side-wrap .tagcloud a {
+	float: right;
+}
+
+/************************************************
+	10. Posts
+************************************************/
+
+.zox-auto-post-grid .zox-post-bot-wrap .zox-post-img-wrap {
+	margin: 0 -30px 0 0;
+}
+
+.zox-post-main {
+	float: right;
+}
+
+.zox-post-video1-img {
+	right: 0;
+	left: auto;
+}
+
+.zox-post-video1-grid {
+	grid-template-columns: auto 300px;
+}
+
+.zox-post-video1-right ul.zox-post-soc-stat-list {
+	justify-content: start;
+}
+	
+.zox-auto-post-grid .zox-post-video1-right .zox-post-byline-wrap {
+	justify-content: start;
+}
+	
+.zox-auto-post-grid .zox-post-video1-right ul.zox-post-soc-stat-list {
+	justify-content: end;
+}
+
+h3.zox-post-cat {
+	float: right;
+}
+
+h1.zox-post-title {
+	float: right;
+}
+
+span.zox-post-excerpt {
+	float: right;
+}
+
+.zox-post-byline-wrap {
+	grid-template-columns: 40px auto;
+}
+
+.zox-author-name-wrap,
+.zox-author-name-wrap p,
+.zox-post-date-wrap p {
+	margin: 0 0 0 5px;
+}
+
+.zox-auto-post-grid .zox-author-name-wrap {
+	margin: 0 0 5px 0;
+}
+
+.zox-author-info-wrap,
+.zox-author-name-wrap,
+.zox-author-name-wrap p,
+.zox-author-name,
+.zox-post-date-wrap,
+.zox-post-date-wrap p {
+	float: right;
+}
+
+span.zox-post-img-cap {
+	float: left;
+	text-align: left;
+}
+
+span.zox-video-close {
+	right: -10px;
+	left: auto;
+	}
+
+.zox-vid-fixed {
+	left: 80px;
+	right: auto;
+	}
+
+.zox-video-embed iframe,
+.zox-video-embed object,
+.zox-video-embed embed,
+span.embed-youtube iframe,
+span.embed-youtube object,
+span.embed-youtube embed,
+.wp-block-embed-youtube iframe,
+.wp-block-embed-youtube object,
+.wp-block-embed-youtube embed {
+	right: 0;
+	left: auto;
+	}
+
+.zox-post-main-wrap {
+	grid-template-columns: calc(100% - 340px) 300px;
+}
+
+.zox-post-main-wide {
+	float: right;
+}
+
+.zox-post-bot-wrap {
+	float: right;
+}
+
+ul.zox-post-soc-stat-list {
+	justify-content: end;
+	}
+
+ul.zox-post-soc-stat-list li {
+	float: right;
+	}
+
+.zox-post-soc-scroll {
+	right: -50px;
+	left: auto;
+}
+
+.zox-post-soc-scroll-out {
+	right: 0;
+	left: auto;
+}
+
+ul.zox-post-soc-list li {
+	float: right;
+	}
+
+.zox-post-body blockquote,
+.comment-inner blockquote {
+	border-right: 3px solid #ccc;
+	border-left: none;
+	padding: 10px 30px 10px 0;
+}
+
+.zox-post-body blockquote.has-text-align-right,
+.comment-inner blockquote.has-text-align-right {
+	border-right: none;
+	border-left: 3px solid #ccc;
+	padding: 10px 0 10px 30px;
+}
+
+.zox-post-body .wp-block-pullquote.alignleft {
+	margin: 30px 40px 30px 30px;
+	text-align: right;
+}
+
+.zox-post-body .wp-block-pullquote.alignleft blockquote {
+	text-align: right;
+}
+
+.zox-post-body .wp-block-pullquote.alignright {
+	margin: 30px 30px 30px 40px;
+	text-align: left;
+}
+
+.zox-post-body .wp-block-pullquote.alignright blockquote {
+	text-align: left;
+}
+
+.zox-post-body .wp-block-archives-dropdown,
+.zox-post-body .wp-block-categories-dropdown {
+	text-align: left;
+}
+
+.zox-post-body .wp-block-search {
+	text-align: right;
+}
+
+.wp-block-image .alignleft {
+	margin: 30px 0 30px 30px;
+}
+
+.wp-block-image .alignright {
+	margin: 30px 30px 30px 0;
+}
+
+.wp-block-button {
+	text-align: right;
+}
+
+.wp-block-button.alignleft {
+	margin: 0 0 20px 20px;
+	text-align: right;
+}
+
+.wp-block-button.alignright {
+	margin: 0 20px 20px 0;
+	text-align: left;
+}
+
+.blocks-gallery-caption {
+	text-align: right;
+}
+
+.wp-block-video figcaption {
+	text-align: right;
+}
+
+.wp-block-gallery.alignleft {
+	margin: 0 0 0 30px;
+}
+
+.wp-block-gallery.alignright {
+	margin: 0 30px 0 0;
+}
+
+.single .zox-post-body .wp-block-gallery.alignwide ul {
+	max-width: 120rem;
+}
+
+.wp-block-cover.alignleft {
+	margin: 0 0 30px 30px;
+}
+
+.wp-block-cover.alignright {
+	margin: 0 30px 30px 0;
+}
+
+.zox-post-body p.wp-caption-text,
+.zox-post-body .wp-block-image figcaption {
+	text-align: left;
+
+}
+
+.post-password-form {
+	float: right;
+	}
+
+.zox-post-tags-header {
+	float: right;
+	}
+
+.zox-author-box-wrap {
+	justify-content: start;
+	}
+
+.zox-author-box-text p {
+	float: right;
+	}
+
+span.zox-author-box-soc {
+	margin-right: 3px;
+	margin-left: 0;
+	}
+
+h4.zox-post-main-title {
+	text-align: right;
+}
+
+/************************************************
+	11. Auto Load Posts
+************************************************/
+
+.zox-auto-post-grid {
+	grid-template-columns: auto 300px;
+}
+
+.zox-alp-soc-wrap {
+	float: right;
+}
+
+.alp-related-posts-wrapper .alp-related-post .featured-image-link {
+	float: right;
+}
+
+.alp-related-posts-wrapper .alp-related-post .post-details {
+	float: right;
+}
+
+/************************************************
+	12. Comments
+************************************************/
+
+.zox-disqus-comm-wrap {
+	float: right;
+}
+
+#zox-comments-button span.zox-comment-but-text i {
+	margin: 0 0 0 5px;
+}
+
+#comments {
+	float: right;
+	}
+
+#disqus_thread {
+	float: right;
+	}
+
+.comment-inner {
+	float: right;
+	}
+
+#comments .comment-avatar,
+#tab3 .comment-avatar {
+	float: right;
+	}
+
+#comments .commentmeta {
+	float: right;
+	}
+
+.comment-reply a {
+	border-right: 5px solid #fff;
+	border-left: none;
+	float: left;
+	}
+
+#cancel-comment-reply-link {
+	float: right;
+	}
+
+#content-main ol.commentlist {
+	float: right;
+	}
+
+#comments .comment-meta-1 {
+	float: right;
+	}
+		
+#comments .comment-meta-1 .fn {
+	float: right;
+	}
+		
+#comments .comment-meta-1 .reply {
+	float: left;
+	}
+		
+#comments .comment-meta-2  {
+	float: right;
+	}
+
+#comments .text {
+	float: right;
+	}
+	
+#comments .depth-2 .comment-wrapper {
+	padding-right: 40px;
+	padding-left: 0;
+	}
+
+#comments .depth-3 .comment-wrapper {
+	padding-right: 80px;
+	padding-left: 0;
+	}
+	
+#comments .depth-4 .comment-wrapper {
+	padding-right: 120px;
+	padding-left: 0;
+	}
+
+#comments .depth-5 .comment-wrapper {
+	padding-right: 160px;
+	padding-left: 0;
+	}
+
+#respond form {
+	float: right;
+	}
+
+.children #respond {
+	margin: 0 0 0 48px;
+	}
+
+#zox-comments-list #respond {
+	margin: 0 0 18px 0;
+	}
+	
+#respond input {
+	margin: 0 1px 10px 0;
+	}
+
+span.comments {
+	padding-left: 15px;
+	padding-right: 0;
+	}
+
+#respond p.comment-form-cookies-consent {
+	justify-content: start;
+}
+
+/************************************************
+	13. Archives
+************************************************/
+
+ul.zox-author-page-list li {
+	margin: 0 8px 0 0;
+	}
+
+#bbpress-forums ul li,
+#bbpress-forums ol li {
+	margin-right: 0;
+	margin-left: auto;
+	}
+
+#subscription-toggle {
+	float: right;
+	}
+
+/************************************************
+	14. WooCommerce
+************************************************/
+
+#woo-content {
+	float: right;
+	}
+
+.zox-woo-main-grid {
+	grid-template-columns: 210px auto;
+}
+
+#zox-woo-side-wrap h4.zox-widget-side-title {
+	text-align: right;
+}
+
+.woocommerce div.product p.price del,
+.woocommerce div.product span.price del,
+.woocommerce ul.products li.product .price del,
+.woocommerce div.product form.cart div.quantity {
+	margin-left: 10px;
+	margin-right: 0;
+	}
+
+.woocommerce span.onsale {
+	-webkit-transform: rotate(45deg);
+	   -moz-transform: rotate(45deg);
+	    -ms-transform: rotate(45deg);
+	     -o-transform: rotate(45deg);
+		transform: rotate(45deg);
+	right: -35px;
+	left: auto;
+	}
+
+.woocommerce ul.products li.product .onsale {
+	right: -35px;
+	left: auto;
+	}
+
+.woocommerce .widget_price_filter .price_slider_wrapper .ui-widget-content,
+.woocommerce-page .widget_price_filter .price_slider_wrapper .ui-widget-content {
+	float: right;
+	}
+
+.woocommerce ul.cart_list li img, .woocommerce ul.product_list_widget li img {
+	margin-right: 10px;
+	margin-left: 0;
+	}
+
+.woocommerce ul.product_list_widget del {
+	margin-left: 5px;
+	margin-right: 0;
+	}
+
+.widget_shopping_cart_content {
+	float: right;
+	}
+
+.woocommerce-page .zox-post-soc-out,
+.woocommerce-page .zox-post-soc-in {
+	margin-right: 0;
+	margin-left: 0;
+	}
+
+/************************************************
+	15. Footer
+************************************************/
+
+#zox-foot-wrap:before {
+	right: 0;
+	left: auto;
+}
+
+.zox-foot-menu ul li {
+	float: right;
+	margin: 0 10px 0 0;
+	}
+
+ul.zox-foot-soc-list li {
+	float: right;
+	margin: 0 7px 0 0;
+}
+
+/************************************************
+	16. Pagination
+************************************************/
+
+.zox-nav-links {
+	float: right;
+	}
+ 
+.pagination span, .pagination a {
+	float: right;
+	margin: 2px 0 2px 5px;
+	}
+
+#infscr-loading em {
+	float: right;
+	}
+
+/************************************************
+	17. SportsPress
+************************************************/
+
+.sp-data-table tr td.data-w,
+.sp-data-table tr td.data-l,
+.sp-data-table tr td.data-gb,
+.sp-data-table tr th.data-w,
+.sp-data-table tr th.data-l,
+.sp-data-table tr th.data-gb {
+	text-align: left;
+	}
+
+.sp-scoreboard-wrapper {
+	float:right
+	}
