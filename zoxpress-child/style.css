@@ -65,9 +65,9 @@ span.zox-widget-main-title {
     display: inline-block;
     height: 20px;
     line-height: 20px;
-    padding: 0 5px 0 23px;
+    padding: 0 23px 0 23px;
     position: relative;
-    margin-right: 15px;
+    margin-right: 5px;
     margin-left: 0px;
     -webkit-transition: color .2s;
     box-sizing: border-box;
